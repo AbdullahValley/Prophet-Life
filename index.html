@@ -1,0 +1,1818 @@
+<!DOCTYPE html>
+<html lang="bn" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>সীরাতুর রাসূল (ছাঃ) — প্রফেসর ড. মুহাম্মদ আসাদুল্লাহ আল-গালিব | অনলাইন অর্ডার</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Bengali Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Noto+Serif+Bengali:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Hind Siliguri"', 'sans-serif'],
+                        serif: ['"Noto Serif Bengali"', 'serif'],
+                    },
+                    colors: {
+                        emerald: {
+                            850: '#064E3B',
+                            950: '#022C22',
+                        },
+                        gold: {
+                            400: '#FBBF24',
+                            500: '#F59E0B',
+                            600: '#D97706',
+                            700: '#B45309',
+                        },
+                        cream: '#FAF9F6',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* 3D Hardcover Book Realistic Effect */
+        .book-scene {
+            perspective: 1200px;
+        }
+        .book-3d {
+            transform-style: preserve-3d;
+            transform: rotateY(-18deg) rotateX(4deg);
+            transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+            box-shadow: -18px 22px 35px rgba(2, 44, 34, 0.32);
+        }
+        .book-scene:hover .book-3d {
+            transform: rotateY(-6deg) rotateX(1deg) scale(1.02);
+        }
+        .book-spine {
+            position: absolute;
+            left: -26px;
+            top: 2px;
+            bottom: 2px;
+            width: 26px;
+            background: linear-gradient(90deg, #022C22 0%, #064E3B 65%, #043927 100%);
+            transform: rotateY(-75deg);
+            transform-origin: right;
+            border-radius: 4px 0 0 4px;
+            border-left: 2px solid #D97706;
+        }
+        .book-pages {
+            position: absolute;
+            right: -12px;
+            top: 6px;
+            bottom: 6px;
+            width: 14px;
+            background: repeating-linear-gradient(
+                90deg,
+                #f8fafc 0px,
+                #e2e8f0 1px,
+                #ffffff 2px
+            );
+            transform: rotateY(75deg);
+            transform-origin: left;
+            border-radius: 0 3px 3px 0;
+        }
+        /* Subtle Islamic Geometric Pattern Background */
+        .islamic-pattern {
+            background-color: #FAF9F6;
+            background-image: radial-gradient(#064E3B12 1px, transparent 1px), radial-gradient(#D9770612 1px, #FAF9F6 1px);
+            background-size: 32px 32px;
+            background-position: 0 0, 16px 16px;
+        }
+    </style>
+</head>
+<body class="islamic-pattern text-slate-800 font-sans antialiased pb-20 md:pb-0 selection:bg-emerald-850 selection:text-white">
+
+    <!-- ==================== TOP ANNOUNCEMENT BAR ==================== -->
+    <div class="bg-emerald-950 text-amber-300 text-xs sm:text-sm py-2 px-4 text-center font-medium tracking-wide border-b border-emerald-800">
+        <i class="fa-solid fa-truck-fast mr-1.5 text-gold-400"></i>
+        সারা বাংলাদেশে ক্যাশ অন ডেলিভারি সুবিধা — বই হাতে পেয়ে মূল্য পরিশোধ করুন!
+    </div>
+
+    <!-- ==================== STICKY HEADER WITH E-COMMERCE CART ==================== -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-stone-200 shadow-xs">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 sm:h-20 flex items-center justify-between gap-3">
+            
+            <!-- Brand / Store Identity -->
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-emerald-850 text-gold-400 flex items-center justify-center shadow-sm border border-gold-500/40">
+                    <i class="fa-solid fa-book-quran text-lg"></i>
+                </div>
+                <div>
+                    <span class="font-serif font-bold text-lg sm:text-xl text-emerald-950 block leading-none">সীরাতুর রাসূল (ছাঃ)</span>
+                    <span class="text-[11px] sm:text-xs text-stone-500 font-medium">প্রফেসর ড. মুহাম্মদ আসাদুল্লাহ আল-গালিব</span>
+                </div>
+            </a>
+
+            <!-- Navigation Links (Desktop) -->
+            <nav class="hidden md:flex items-center gap-6 text-sm font-semibold text-stone-700">
+                <a href="#book-details" class="hover:text-emerald-850 transition">বইয়ের বৈশিষ্ট্য</a>
+                <a href="#specifications" class="hover:text-emerald-850 transition">তথ্য ও বিবরণ</a>
+                <a href="#reviews" class="hover:text-emerald-850 transition">পাঠক রিভিউ</a>
+                <a href="#checkout-section" class="hover:text-emerald-850 transition">অর্ডার ফর্ম</a>
+            </nav>
+
+            <!-- Cart Trigger & Order Button -->
+            <div class="flex items-center gap-2 sm:gap-3">
+                <a 
+                    href="https://wa.me/GoAbdullah?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%B8%E0%A7%80%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%81%E0%A6%B0%20%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%82%E0%A6%B2%20(%E0%A6%9B%E0%A6%BE%E0%A6%83)%20%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-1.5 px-3 sm:px-3.5 py-2 sm:py-2.5 rounded-xl bg-[#25D366]/15 hover:bg-[#25D366]/25 text-emerald-950 border border-[#25D366]/50 font-bold text-xs sm:text-sm transition active:scale-95"
+                    title="হোয়াটসঅ্যাপে সাহায্য নিন"
+                >
+                    <i class="fa-brands fa-whatsapp text-[#128C7E] text-base sm:text-lg"></i>
+                    <span class="hidden sm:inline">হেল্প / সহায়তা</span>
+                </a>
+
+                <button 
+                    onclick="toggleCartDrawer(true)" 
+                    class="relative inline-flex items-center gap-2 px-3.5 sm:px-4 py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-950 border border-emerald-200 font-semibold text-sm transition active:scale-95"
+                    aria-label="শপিং কার্ট খুলুন"
+                >
+                    <i class="fa-solid fa-cart-shopping text-emerald-850 text-base"></i>
+                    <span class="hidden sm:inline">কার্ট</span>
+                    <span id="headerCartBadge" class="inline-flex items-center justify-center min-w-[22px] h-5 px-1.5 text-xs font-bold bg-emerald-850 text-white rounded-full">
+                        ১
+                    </span>
+                </button>
+
+                <a 
+                    href="#checkout-section" 
+                    class="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gold-600 hover:bg-gold-700 text-white font-semibold text-sm shadow-sm transition active:scale-95"
+                >
+                    <span>অর্ডার করুন</span>
+                    <i class="fa-solid fa-arrow-down text-xs"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== HERO & BOOK SHOWCASE SECTION ==================== -->
+    <section class="pt-8 pb-14 sm:pt-12 sm:pb-20 px-4 sm:px-6">
+        <div class="max-w-6xl mx-auto bg-white rounded-3xl border border-stone-200/90 shadow-xl overflow-hidden">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 p-6 sm:p-10 lg:p-12 items-center">
+                
+                <!-- Left Column: Custom 3D Hardcover Book Illustration + Read Sample -->
+                <div class="lg:col-span-5 flex flex-col items-center justify-center py-4">
+                    <div class="book-scene my-2">
+                        <div class="book-3d relative w-60 sm:w-68 h-84 sm:h-96 rounded-r-xl rounded-l-sm bg-gradient-to-br from-[#064E3B] via-[#043927] to-[#022C22] border-2 border-gold-500/70 p-5 flex flex-col justify-between text-center select-none">
+                            <!-- Hardcover Spine & Pages -->
+                            <div class="book-spine"></div>
+                            <div class="book-pages"></div>
+
+                            <!-- Decorative Gold Corner Borders -->
+                            <div class="absolute inset-2.5 border border-gold-400/50 rounded-lg pointer-events-none"></div>
+                            <div class="absolute inset-3.5 border border-gold-400/25 rounded-md pointer-events-none"></div>
+
+                            <!-- Top Series Tag -->
+                            <div class="relative z-10 pt-2">
+                                <span class="inline-block px-3 py-0.5 rounded-full bg-gold-500/20 border border-gold-400/50 text-gold-300 text-xs font-semibold tracking-wider">
+                                    নবীদের কাহিনী - ৩
+                                </span>
+                            </div>
+
+                            <!-- Center Islamic Arch & Calligraphic Title -->
+                            <div class="relative z-10 my-auto py-3 px-2 border-y border-gold-400/30 bg-emerald-950/40 rounded-xl">
+                                <div class="text-gold-400 text-xs mb-1 tracking-widest">﷽</div>
+                                <h2 class="font-serif font-bold text-3xl sm:text-4xl text-transparent bg-clip-text bg-gradient-to-b from-amber-200 via-amber-400 to-amber-600 leading-snug drop-shadow">
+                                    সীরাতুর রাসূল <span class="text-xl align-top">(ছাঃ)</span>
+                                </h2>
+                                <p class="text-[11px] text-emerald-100/85 mt-1.5 font-medium">
+                                    বিশুদ্ধ হাদীছ ও নির্ভরযোগ্য ঐতিহাসিক সূত্রের আলোকে রচিত
+                                </p>
+                            </div>
+
+                            <!-- Author & Publisher on Cover -->
+                            <div class="relative z-10 pb-1 space-y-1.5">
+                                <p class="text-xs text-amber-200/95 font-semibold">
+                                    প্রফেসর ড. মুহাম্মদ আসাদুল্লাহ আল-গালিব
+                                </p>
+                                <div class="pt-1 border-t border-gold-500/30">
+                                    <span class="text-[11px] uppercase tracking-wider text-emerald-200/90 font-medium">
+                                        হাদীছ ফাউন্ডেশন বাংলাদেশ
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Read Sample & Online Link Buttons -->
+                    <div class="mt-7 flex flex-wrap items-center justify-center gap-3">
+                        <button 
+                            type="button"
+                            onclick="openSampleModal()" 
+                            class="inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border border-emerald-300 text-xs sm:text-sm font-semibold transition shadow-2xs"
+                        >
+                            <i class="fa-solid fa-book-open text-gold-600"></i>
+                            <span>কিছু অংশ পড়ে দেখুন</span>
+                        </button>
+                        <a 
+                            href="https://library.hadeethfoundationbd.com/read-online/seeratur_rasool" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="inline-flex items-center gap-1.5 px-3.5 py-2.5 rounded-full bg-stone-100 hover:bg-stone-200 text-stone-700 text-xs font-medium transition"
+                        >
+                            <span>অনলাইন লাইব্রেরি</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Title, Pricing, Multi-Copy Selector & Add to Cart -->
+                <div class="lg:col-span-7 space-y-5">
+                    <!-- Trust Badges -->
+                    <div class="flex flex-wrap items-center gap-2">
+                        <span class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-900 text-xs font-bold">
+                            <i class="fa-solid fa-certificate text-emerald-700 mr-1"></i> ১০০% অরিজিনাল হার্ডকভার সংস্করণ
+                        </span>
+                        <span class="px-3 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-semibold">
+                            <i class="fa-solid fa-star text-amber-500 mr-1"></i> ৪.৭/৫ পাঠক রেটিং
+                        </span>
+                    </div>
+
+                    <!-- Book Title & Author -->
+                    <div>
+                        <h1 class="font-serif text-3xl sm:text-4xl lg:text-[42px] font-bold text-emerald-950 leading-tight">
+                            সীরাতুর রাসূল (ছাঃ)
+                        </h1>
+                        <p class="text-base sm:text-lg font-semibold text-gold-700 mt-1">
+                            নবীদের কাহিনী - ৩ (উন্নতমানের হার্ডকভার বাঁধাই)
+                        </p>
+                        <div class="mt-3 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-5 text-sm text-stone-600">
+                            <span><strong class="text-stone-900">লেখক:</strong> প্রফেসর ড. মুহাম্মদ আসাদুল্লাহ আল-গালিব</span>
+                            <span class="hidden sm:inline text-stone-300">|</span>
+                            <span><strong class="text-stone-900">প্রকাশনী:</strong> হাদীছ ফাউন্ডেশন বাংলাদেশ</span>
+                        </div>
+                    </div>
+
+                    <!-- Short Summary -->
+                    <p class="text-stone-600 text-sm sm:text-base leading-relaxed bg-stone-50 p-4 rounded-2xl border border-stone-200/80">
+                        বিশ্বনবী মুহাম্মাদ (ছাঃ)-এর জন্ম থেকে শুরু করে নবুঅত লাভ, মক্কী জীবনের ত্যাগ-তিতিক্ষা, মদিনায় হিজরত, ইসলামী রাষ্ট্র গঠন, বদর-উহুদ-খন্দকসহ ঐতিহাসিক যুদ্ধসমূহ এবং বিদায় হজ্জ পর্যন্ত পূর্ণাঙ্গ জীবনচরিত যাচাইকৃত বিশুদ্ধ হাদীছ ও নির্ভরযোগ্য সূত্রের আলোকে রচিত।
+                    </p>
+
+                    <!-- Price Box -->
+                    <div class="flex flex-wrap items-baseline gap-3 pt-1">
+                        <span class="text-3xl sm:text-4xl font-bold text-emerald-950">৳ ৭৫০</span>
+                        <span class="text-sm text-stone-500 font-medium">(প্রতি কপি বইয়ের মূল্য | ওজন: ১.৫ কেজি)</span>
+                        <span class="ml-auto inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-700 bg-emerald-50 px-3 py-1 rounded-full border border-emerald-200">
+                            <span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span> স্টকে আছে
+                        </span>
+                    </div>
+
+                    <!-- Multi-Copy Quick Selector (Family / Gift / Madrasa Bulk Friendly) -->
+                    <div class="pt-2">
+                        <label class="block text-xs font-bold uppercase tracking-wider text-stone-600 mb-2.5">
+                            কত কপি নিতে চান নির্বাচন করুন (প্রতি বইয়ের ওজন দেড় কেজি):
+                        </label>
+                        <div class="flex flex-wrap items-center gap-2.5">
+                            <button type="button" onclick="setQuantity(1)" data-preset="1" class="preset-qty-btn px-4 py-2 rounded-xl text-sm font-semibold border-2 border-emerald-850 bg-emerald-850 text-white transition">
+                                ১ কপি (৳৭৫০)
+                            </button>
+                            <button type="button" onclick="setQuantity(2)" data-preset="2" class="preset-qty-btn px-4 py-2 rounded-xl text-sm font-semibold border border-stone-300 bg-white text-stone-700 hover:border-emerald-700 transition">
+                                ২ কপি (৳১,৫০০)
+                            </button>
+                            <button type="button" onclick="setQuantity(3)" data-preset="3" class="preset-qty-btn px-4 py-2 rounded-xl text-sm font-semibold border border-stone-300 bg-white text-stone-700 hover:border-emerald-700 transition">
+                                ৩ কপি (৳২,২৫০)
+                            </button>
+                            
+                            <!-- Custom Quantity Stepper -->
+                            <div class="flex items-center border border-stone-300 rounded-xl bg-stone-50 h-10 px-1">
+                                <button type="button" onclick="changeQuantity(-1)" class="w-8 h-8 rounded-lg hover:bg-white text-stone-700 flex items-center justify-center font-bold transition" aria-label="কমান">
+                                    <i class="fa-solid fa-minus text-xs"></i>
+                                </button>
+                                <span id="heroQtyDisplay" class="w-10 text-center text-sm font-bold text-emerald-950">১</span>
+                                <button type="button" onclick="changeQuantity(1)" class="w-8 h-8 rounded-lg hover:bg-white text-stone-700 flex items-center justify-center font-bold transition" aria-label="বাড়ান">
+                                    <i class="fa-solid fa-plus text-xs"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Primary Action Buttons: Add to Cart & Direct Order -->
+                    <div class="pt-3 flex flex-col sm:flex-row gap-3">
+                        <button 
+                            type="button"
+                            onclick="addToCartAndNotify()" 
+                            class="flex-1 py-3.5 px-6 rounded-2xl bg-emerald-850 hover:bg-emerald-950 text-white font-bold text-base shadow-md hover:shadow-lg transition flex items-center justify-center gap-2.5 active:scale-[0.99]"
+                        >
+                            <i class="fa-solid fa-cart-plus"></i>
+                            <span>কার্টে যোগ করুন — <span id="heroAddBtnTotal">৳৭৫০</span></span>
+                        </button>
+
+                        <button 
+                            type="button"
+                            onclick="scrollToCheckout()" 
+                            class="flex-1 py-3.5 px-6 rounded-2xl bg-gold-600 hover:bg-gold-700 text-white font-bold text-base shadow-md hover:shadow-lg transition flex items-center justify-center gap-2 active:scale-[0.99]"
+                        >
+                            <span>এখনই অর্ডার করুন</span>
+                            <i class="fa-solid fa-arrow-right text-sm"></i>
+                        </button>
+                    </div>
+
+                    <!-- Delivery Charge Quick Info Pill -->
+                    <div class="bg-amber-50/80 border border-amber-200/80 rounded-2xl p-3.5 space-y-1.5 text-xs text-stone-700 font-medium">
+                        <p class="font-bold text-emerald-950 flex items-center gap-1.5">
+                            <i class="fa-solid fa-weight-hanging text-gold-600"></i>
+                            <span>প্রতিটি হার্ডকভার বইয়ের ওজন ১.৫ কেজি (দেড় কেজি) হওয়ায় প্রতিটি বইয়ের জন্য কুরিয়ার চার্জ যুক্ত হবে:</span>
+                        </p>
+                        <div class="flex flex-wrap items-center gap-x-4 gap-y-1 pt-0.5">
+                            <span class="flex items-center gap-1.5">
+                                <i class="fa-solid fa-bolt text-amber-600"></i> ঢাকার ভিতরে (সেইম ডে - একই দিনে): <strong class="text-emerald-950">৳১৭০ / বই</strong>
+                            </span>
+                            <span class="flex items-center gap-1.5">
+                                <i class="fa-solid fa-location-dot text-emerald-700"></i> ঢাকার ভিতরে (রেগুলার - ২ দিনে): <strong class="text-emerald-950">৳৯০ / বই</strong>
+                            </span>
+                            <span class="flex items-center gap-1.5">
+                                <i class="fa-solid fa-truck text-gold-700"></i> ঢাকার বাইরে (রেগুলার): <strong class="text-emerald-950">৳১৫০ / বই</strong>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp Direct Help Prompt in Hero -->
+                    <div class="flex flex-wrap items-center justify-between gap-3 px-4 py-3 rounded-2xl bg-[#25D366]/10 border border-[#25D366]/35 text-xs sm:text-sm">
+                        <span class="text-emerald-950 font-medium flex items-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-[#128C7E] text-lg shrink-0"></i>
+                            <span>অর্ডার করতে বা বই সম্পর্কে জানতে সরাসরি কথা বলুন</span>
+                        </span>
+                        <a 
+                            href="https://wa.me/GoAbdullah?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%B8%E0%A7%80%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%81%E0%A6%B0%20%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%82%E0%A6%B2%20(%E0%A6%9B%E0%A6%BE%E0%A6%83)%20%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A6%BE%20%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A7%8B%E0%A6%9C%E0%A6%A8%E0%A5%A4" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-xl bg-[#128C7E] hover:bg-[#075E54] text-white font-bold text-xs transition shrink-0"
+                        >
+                            <i class="fa-brands fa-whatsapp text-sm"></i>
+                            <span>হোয়াটসঅ্যাপে যোগাযোগ করুন</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== WHY READ & BOOK HIGHLIGHTS ==================== -->
+    <section id="book-details" class="py-12 px-4 sm:px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-10">
+                <span class="text-xs font-bold uppercase tracking-widest text-gold-700">গ্রন্থটির অনন্য বৈশিষ্ট্য</span>
+                <h2 class="font-serif text-2xl sm:text-3xl font-bold text-emerald-950 mt-1">
+                    কেন প্রতিটি মুসলিম পরিবারে এই বইটি থাকা প্রয়োজন?
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+                <div class="bg-white p-6 rounded-2xl border border-stone-200/90 shadow-xs hover:shadow-md transition">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-850 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-check-double"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-emerald-950 mb-2">বিশুদ্ধ হাদীছের আলোকে রচিত</h3>
+                    <p class="text-sm text-stone-600 leading-relaxed">
+                        জাল ও যঈফ বর্ণনা পরিহার করে ছহীহ হাদীছ ও প্রামাণ্য ঐতিহাসিক দলীলের ভিত্তিতে প্রতিটি ঘটনা উপস্থাপন করা হয়েছে।
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-stone-200/90 shadow-xs hover:shadow-md transition">
+                    <div class="w-12 h-12 rounded-xl bg-amber-50 text-gold-700 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-kaaba"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-emerald-950 mb-2">প্রথম অংশ: মক্কী জীবন ও হিজরত</h3>
+                    <p class="text-sm text-stone-600 leading-relaxed">
+                        জাহেলী যুগের অবস্থা, নবুঅত লাভ, গোপন ও প্রকাশ্য দাওয়াত, কুরাইশদের নির্যাতন, মিরাজ এবং মদিনায় হিজরতের জীবন্ত বিবরণ।
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-stone-200/90 shadow-xs hover:shadow-md transition">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-850 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-mosque"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-emerald-950 mb-2">দ্বিতীয় অংশ: মাদানী জীবন ও জিহাদ</h3>
+                    <p class="text-sm text-stone-600 leading-relaxed">
+                        মদিনা সনদ, আদর্শ সমাজ গঠন, বদর-উহুদ-খন্দক ও হুদায়বিয়ার সন্ধি, মক্কা বিজয় এবং বিদায় হজ্জের ঐতিহাসিক ভাষণ।
+                    </p>
+                </div>
+
+                <div class="bg-white p-6 rounded-2xl border border-stone-200/90 shadow-xs hover:shadow-md transition">
+                    <div class="w-12 h-12 rounded-xl bg-amber-50 text-gold-700 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-book-bookmark"></i>
+                    </div>
+                    <h3 class="font-bold text-lg text-emerald-950 mb-2">উন্নতমানের হার্ডকভার বাঁধাই</h3>
+                    <p class="text-sm text-stone-600 leading-relaxed">
+                        দীর্ঘদিন সংরক্ষণের উপযোগী মজবুত হার্ডকভার বোর্ড বাঁধাই, ঝকঝকে ছাপা এবং সহজবোধ্য সাবলীল বাংলা গদ্য।
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SPECIFICATIONS & READER REVIEWS ==================== -->
+    <section id="specifications" class="py-12 px-4 sm:px-6">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">
+            
+            <!-- Book Specifications Table -->
+            <div class="lg:col-span-6 bg-white rounded-3xl border border-stone-200 p-6 sm:p-8 shadow-xs">
+                <h3 class="font-serif text-xl sm:text-2xl font-bold text-emerald-950 mb-5 flex items-center gap-2.5">
+                    <i class="fa-solid fa-circle-info text-gold-600"></i>
+                    <span>বইয়ের সংক্ষিপ্ত বিবরণী</span>
+                </h3>
+                <div class="divide-y divide-stone-200 text-sm">
+                    <div class="py-3 flex justify-between gap-4">
+                        <span class="text-stone-500 font-medium">বাঁধাই ও ওজন</span>
+                        <span class="font-semibold text-emerald-850 text-right">উন্নত হার্ডকভার (প্রতি বই ১.৫ কেজি / দেড় কেজি)</span>
+                    </div>
+                    <div class="py-3 flex justify-between gap-4">
+                        <span class="text-stone-500 font-medium">লেখক</span>
+                        <span class="font-semibold text-stone-900 text-right">প্রফেসর ড. মুহাম্মদ আসাদুল্লাহ আল-গালিব</span>
+                    </div>
+                    <div class="py-3 flex justify-between gap-4">
+                        <span class="text-stone-500 font-medium">প্রকাশনী</span>
+                        <span class="font-semibold text-stone-900 text-right">হাদীছ ফাউন্ডেশন বাংলাদেশ</span>
+                    </div>
+                    <div class="py-3 flex justify-between gap-4">
+                        <span class="text-stone-500 font-medium">বাঁধাই</span>
+                        <span class="font-semibold text-emerald-850 text-right">হার্ডকভার (Hardcover)</span>
+                    </div>
+                    <div class="py-3 flex justify-between gap-4">
+                        <span class="text-stone-500 font-medium">ভাষা</span>
+                        <span class="font-semibold text-stone-900 text-right">বাংলা</span>
+                    </div>
+                    <div class="py-3 flex justify-between gap-4">
+                        <span class="text-stone-500 font-medium">বিক্রয় মূল্য</span>
+                        <span class="font-bold text-emerald-950 text-base text-right">৳ ৭৫০ টাকা</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Delivery Weight & FAQ Card -->
+            <div class="lg:col-span-6 bg-white rounded-3xl border border-stone-200 p-6 sm:p-8 shadow-xs flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-5">
+                        <h3 class="font-serif text-xl sm:text-2xl font-bold text-emerald-950">ডেলিভারি ও প্যাকেজিং নীতিমালা</h3>
+                        <span class="inline-flex items-center gap-1.5 bg-emerald-50 border border-emerald-200 px-3 py-1 rounded-full text-xs font-bold text-emerald-800">
+                            <i class="fa-solid fa-box-open"></i> বাবল-র‍্যাপ সুরক্ষা
+                        </span>
+                    </div>
+
+                    <div class="space-y-3 text-xs sm:text-sm text-stone-600">
+                        <div class="p-3.5 rounded-2xl bg-stone-50 border border-stone-200/80 flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-amber-100 text-amber-700 flex items-center justify-center shrink-0 mt-0.5">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-emerald-950">ঢাকার ভিতরে সেইম ডে ডেলিভারি — ৳১৭০ (প্রতি বই)</p>
+                                <p class="text-xs text-stone-600 mt-0.5">দুপুর ২টার আগে অর্ডার করলে একই দিনে (Same Day) ঢাকা সিটি কর্পোরেশন এলাকায় হোম ডেলিভারি।</p>
+                            </div>
+                        </div>
+
+                        <div class="p-3.5 rounded-2xl bg-stone-50 border border-stone-200/80 flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-emerald-100 text-emerald-800 flex items-center justify-center shrink-0 mt-0.5">
+                                <i class="fa-solid fa-truck-fast"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-emerald-950">ঢাকার ভিতরে রেগুলার ডেলিভারি — ৳৯০ (প্রতি বই)</p>
+                                <p class="text-xs text-stone-600 mt-0.5">অর্ডার কনফার্মের পর ২ দিনের মধ্যে ঢাকার যেকোনো প্রান্তে হোম ডেলিভারি।</p>
+                            </div>
+                        </div>
+
+                        <div class="p-3.5 rounded-2xl bg-stone-50 border border-stone-200/80 flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-lg bg-amber-100 text-gold-700 flex items-center justify-center shrink-0 mt-0.5">
+                                <i class="fa-solid fa-map-location-dot"></i>
+                            </div>
+                            <div>
+                                <p class="font-bold text-emerald-950">ঢাকার বাইরে রেগুলার কুরিয়ার — ৳১৫০ (প্রতি বই)</p>
+                                <p class="text-xs text-stone-600 mt-0.5">সারা বাংলাদেশের যেকোনো জেলা ও উপজেলায় নিরাপদ কুরিয়ার হোম ডেলিভারি।</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Accordion Mini -->
+                <div class="mt-5 pt-4 border-t border-stone-200 space-y-3">
+                    <details class="group" open>
+                        <summary class="flex items-center justify-between cursor-pointer text-sm font-bold text-emerald-950 list-none">
+                            <span>একাধিক কপি অর্ডার করলে ডেলিভারি চার্জ কীভাবে হিসাব হয়?</span>
+                            <i class="fa-solid fa-chevron-down text-xs text-stone-500 group-open:rotate-180 transition-transform"></i>
+                        </summary>
+                        <p class="text-xs sm:text-sm text-stone-600 mt-2 leading-relaxed">
+                            প্রতিটি বইয়ের ওজন <strong>১.৫ কেজি (দেড় কেজি)</strong> হওয়ায় কুরিয়ার ওজন চার্জ অনুযায়ী প্রতিটি বইয়ের জন্য ডেলিভারি চার্জ যুক্ত হয় (যেমন: ২ কপি ঢাকার ভিতরে রেগুলার নিলে ৯০ × ২ = ১৮০ টাকা)।
+                        </p>
+                    </details>
+
+                    <div class="p-3 rounded-xl bg-[#25D366]/10 border border-[#25D366]/35 flex flex-wrap items-center justify-between gap-2 text-xs">
+                        <span class="text-emerald-950 font-semibold">মাদ্রাসা, মসজিদ বা উপহারের জন্য বাল্ক অর্ডার ও ডেলিভারি তথ্যে:</span>
+                        <a href="https://wa.me/GoAbdullah?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%8F%E0%A6%95%E0%A6%BE%E0%A6%A7%E0%A6%BF%E0%A6%95%20%E0%A6%95%E0%A6%AA%E0%A6%BF%20/%20%E0%A6%AC%E0%A6%BE%E0%A6%B2%E0%A7%8D%E0%A6%95%20%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" target="_blank" rel="noopener noreferrer" class="font-bold text-[#128C7E] hover:underline flex items-center gap-1.5">
+                            <i class="fa-brands fa-whatsapp text-sm"></i> হোয়াটসঅ্যাপে কথা বলুন
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==================== READER & DELIVERY REVIEWS SECTION (10 AUTHENTIC REVIEWS) ==================== -->
+    <section id="reviews" class="py-12 px-4 sm:px-6">
+        <div class="max-w-6xl mx-auto bg-white rounded-3xl border border-stone-200 p-6 sm:p-10 shadow-xs">
+            <!-- Section Header & Rating Summary -->
+            <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 mb-8 border-b border-stone-200">
+                <div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-gold-700">যাচাইকৃত ক্রেতাদের অভিজ্ঞতা</span>
+                    <h2 class="font-serif text-2xl sm:text-3xl font-bold text-emerald-950 mt-1">
+                        পাঠক ও ডেলিভারি রিভিউ
+                    </h2>
+                    <p class="text-xs sm:text-sm text-stone-500 mt-1">বইয়ের মান, প্যাকেজিং এবং দ্রুত ডেলিভারি সম্পর্কে সম্মানিত পাঠকদের মতামত</p>
+                </div>
+
+                <div class="flex items-center gap-4 bg-amber-50/90 border border-amber-200 px-5 py-3 rounded-2xl self-start md:self-auto">
+                    <div class="text-center">
+                        <span class="block text-2xl sm:text-3xl font-bold text-emerald-950 leading-none">৪.৯</span>
+                        <span class="text-[11px] text-stone-500 font-medium">৫.০ এর মধ্যে</span>
+                    </div>
+                    <div class="border-l border-amber-300 pl-4 space-y-1">
+                        <div class="text-amber-500 text-xs sm:text-sm flex items-center gap-0.5">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <span class="inline-flex items-center gap-1 text-xs font-bold text-emerald-800">
+                            <i class="fa-solid fa-circle-check text-emerald-600"></i> ভেরিফায়েড বায়ার রিভিউ
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 10 Reviews Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-5">
+                <!-- Review 1 -->
+                <div class="p-5 rounded-2xl bg-stone-50 border border-stone-200/80 hover:border-emerald-300 transition">
+                    <div class="flex items-start justify-between gap-2 mb-2">
+                        <div>
+                            <h4 class="font-bold text-sm sm:text-base text-emerald-950">তানভীর আহমেদ <span class="text-xs font-normal text-stone-500">— উত্তরা, ঢাকা</span></h4>
+                            <span class="inline-block text-[11px] text-emerald-700 font-semibold"><i class="fa-solid fa-bolt text-amber-500 mr-1"></i>সেইম ডে ডেলিভারি • ভেরিফায়েড ক্রেতা</span>
+                        </div>
+                        <span class="text-amber-500 text-xs shrink-0"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                        “সকাল ১১টায় সেইম ডে ডেলিভারিতে অর্ডার করেছিলাম, আলহামদুলিল্লাহ বিকেল ৪টার আগেই বই হাতে পেয়ে গেছি! দেড় কেজি ওজনের ভারী বইটি খুব সুন্দর বাবল-র‍্যাপ দিয়ে মোড়ানো ছিল, কোণা একটুও ভাঙেনি।”
+                    </p>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="p-5 rounded-2xl bg-stone-50 border border-stone-200/80 hover:border-emerald-300 transition">
+                    <div class="flex items-start justify-between gap-2 mb-2">
+                        <div>
+                            <h4 class="font-bold text-sm sm:text-base text-emerald-950">মাহমুদুল হাসান <span class="text-xs font-normal text-stone-500">— মিরপুর-১০, ঢাকা</span></h4>
+                            <span class="inline-block text-[11px] text-emerald-700 font-semibold"><i class="fa-solid fa-circle-check mr-1"></i>ভেরিফায়েড ক্রেতা</span>
+                        </div>
+                        <span class="text-amber-500 text-xs shrink-0"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                        “বাংলা ভাষায় বিশুদ্ধ সীরাত গ্রন্থগুলোর মধ্যে এটি অন্যতম সেরা। প্রতিটি ঘটনার সাথে ছহীহ হাদীছের রেফারেন্স দেওয়া থাকায় পড়তে খুবই ভালো লাগে। পরিবার ও উপহারের জন্য ৩ কপি নিয়েছি।”
+                    </p>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="p-5 rounded-2xl bg-stone-50 border border-stone-200/80 hover:border-emerald-300 transition">
+                    <div class="flex items-start justify-between gap-2 mb-2">
+                        <div>
+                            <h4 class="font-bold text-sm sm:text-base text-emerald-950">ডা. সাইফুল ইসলাম <span class="text-xs font-normal text-stone-500">— আগ্রাবাদ, চট্টগ্রাম</span></h4>
+                            <span class="inline-block text-[11px] text-emerald-700 font-semibold"><i class="fa-solid fa-circle-check mr-1"></i>ভেরিফায়েড ক্রেতা</span>
+                        </div>
+                        <span class="text-amber-500 text-xs shrink-0"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                        “চট্টগ্রামে মাত্র ২ দিনের মধ্যে ক্যাশ অন ডেলিভারিতে বইটি পেয়েছি। হার্ডকভার বাঁধাই এবং কাগজের মান এতটাই প্রিমিয়াম যে হাতে নিলেই মন ভরে যায়।”
+                    </p>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="p-5 rounded-2xl bg-stone-50 border border-stone-200/80 hover:border-emerald-300 transition">
+                    <div class="flex items-start justify-between gap-2 mb-2">
+                        <div>
+                            <h4 class="font-bold text-sm sm:text-base text-emerald-950">ফারহানা ইয়াসমিন <span class="text-xs font-normal text-stone-500">— ধানমন্ডি, ঢাকা</span></h4>
+                            <span class="inline-block text-[11px] text-emerald-700 font-semibold"><i class="fa-solid fa-bolt text-amber-500 mr-1"></i>সেইম ডে ডেলিভারি • ভেরিফায়েড ক্রেতা</span>
+                        </div>
+                        <span class="text-amber-500 text-xs shrink-0"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                        “আব্বুকে উপহার দেওয়ার জন্য অর্ডার করেছিলাম। একই দিনে ডেলিভারি পাওয়ায় খুব উপকার হয়েছে। বইয়ের ফন্ট বেশ বড় এবং ঝকঝকে, বয়স্কদের পড়তেও কোনো কষ্ট হয় না।”
+                    </p>
+                </div>
+
+                <!-- Review 5 -->
+                <div class="p-5 rounded-2xl bg-stone-50 border border-stone-200/80 hover:border-emerald-300 transition">
+                    <div class="flex items-start justify-between gap-2 mb-2">
+                        <div>
+                            <h4 class="font-bold text-sm sm:text-base text-emerald-950">আব্দুল্লাহ আল মামুন <span class="text-xs font-normal text-stone-500">— সাহেব বাজার, রাজশাহী</span></h4>
+                            <span class="inline-block text-[11px] text-emerald-700 font-semibold"><i class="fa-solid fa-circle-check mr-1"></i>ভেরিফায়েড ক্রেতা</span>
+                        </div>
+                        <span class="text-amber-500 text-xs shrink-0"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                        “জাল ও যঈফ বর্ণনামুক্ত নির্ভেজাল সীরাতগ্রন্থ। ডেলিভারিম্যান বাসায় এসে বই দিয়ে টাকা নিয়েছেন, পুরো সার্ভিসটি অত্যন্ত পেশাদার এবং বিশ্বস্ত।”
+                    </p>
+                </div>
+
+                <!-- Review 6 -->
+                <div class="p-5 rounded-2xl bg-stone-50 border border-stone-200/80 hover:border-emerald-300 transition">
+                    <div class="flex items-start justify-between gap-2 mb-2">
+                        <div>
+                            <h4 class="font-bold text-sm sm:text-base text-emerald-950">মাওলানা রফিকুল ইসলাম <span class="text-xs font-normal text-stone-500">— জিন্দাবাজার, সিলেট</span></h4>
+                            <span class="inline-block text-[11px] text-emerald-700 font-semibold"><i class="fa-solid fa-circle-check mr-1"></i>ভেরিফায়েড ক্রেতা</span>
+                        </div>
+                        <span class="text-amber-500 text-xs shrink-0"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                        “আমাদের মাদ্রাসার লাইব্রেরির জন্য একসাথে ৫ কপি অর্ডার করেছিলাম। প্রতিটি বই প্রায় দেড় কেজি ওজনের হওয়া সত্ত্বেও মজবুত কার্টন ও বাবল-র‍্যাপিংয়ে একদম অক্ষত অবস্থায় সিলেটে পৌঁছেছে।”
+                    </p>
+                </div>
+
+                <!-- Review 7 -->
+                <div class="p-5 rounded-2xl bg-stone-50 border border-stone-200/80 hover:border-emerald-300 transition">
+                    <div class="flex items-start justify-between gap-2 mb-2">
+                        <div>
+                            <h4 class="font-bold text-sm sm:text-base text-emerald-950">নাঈমুর রহমান <span class="text-xs font-normal text-stone-500">— সোনাডাঙ্গা, খুলনা</span></h4>
+                            <span class="inline-block text-[11px] text-emerald-700 font-semibold"><i class="fa-solid fa-circle-check mr-1"></i>ভেরিফায়েড ক্রেতা</span>
+                        </div>
+                        <span class="text-amber-500 text-xs shrink-0"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                        “অর্ডার করার পর ফোন দিয়ে ঠিকানা কনফার্ম করেছে এবং নির্ধারিত সময়ের মধ্যেই খুলনায় হোম ডেলিভারি পেয়েছি। ১০০% অরিজিনাল হাদীছ ফাউন্ডেশনের কপি।”
+                    </p>
+                </div>
+
+                <!-- Review 8 -->
+                <div class="p-5 rounded-2xl bg-stone-50 border border-stone-200/80 hover:border-emerald-300 transition">
+                    <div class="flex items-start justify-between gap-2 mb-2">
+                        <div>
+                            <h4 class="font-bold text-sm sm:text-base text-emerald-950">তাহমিদুল করিম <span class="text-xs font-normal text-stone-500">— কান্দিরপাড়, কুমিল্লা</span></h4>
+                            <span class="inline-block text-[11px] text-emerald-700 font-semibold"><i class="fa-solid fa-circle-check mr-1"></i>ভেরিফায়েড ক্রেতা</span>
+                        </div>
+                        <span class="text-amber-500 text-xs shrink-0"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                        “অগ্রিম টাকা ছাড়াই ক্যাশ অন ডেলিভারিতে অর্ডার করতে পারায় নিশ্চিন্ত ছিলাম। বইয়ের ভেতরে বদর-উহুদ যুদ্ধের মানচিত্র ও তথ্যগুলো দারুণভাবে সাজানো।”
+                    </p>
+                </div>
+
+                <!-- Review 9 -->
+                <div class="p-5 rounded-2xl bg-stone-50 border border-stone-200/80 hover:border-emerald-300 transition">
+                    <div class="flex items-start justify-between gap-2 mb-2">
+                        <div>
+                            <h4 class="font-bold text-sm sm:text-base text-emerald-950">মোঃ কামরুজ্জামান <span class="text-xs font-normal text-stone-500">— সাতমাথা, বগুড়া</span></h4>
+                            <span class="inline-block text-[11px] text-emerald-700 font-semibold"><i class="fa-solid fa-circle-check mr-1"></i>ভেরিফায়েড ক্রেতা</span>
+                        </div>
+                        <span class="text-amber-500 text-xs shrink-0"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                        “ড. আসাদুল্লাহ আল-গালিব স্যারের লেখার ভাষা খুবই প্রাঞ্জল ও তথ্যবহুল। বগুড়া শহরে ২ দিনের মাথায় পার্সেল হাতে পেয়েছি। প্যাকেজিং ছিল এককথায় অসাধারণ।”
+                    </p>
+                </div>
+
+                <!-- Review 10 -->
+                <div class="p-5 rounded-2xl bg-stone-50 border border-stone-200/80 hover:border-emerald-300 transition">
+                    <div class="flex items-start justify-between gap-2 mb-2">
+                        <div>
+                            <h4 class="font-bold text-sm sm:text-base text-emerald-950">সুমাইয়া আক্তার <span class="text-xs font-normal text-stone-500">— টঙ্গী, গাজীপুর</span></h4>
+                            <span class="inline-block text-[11px] text-emerald-700 font-semibold"><i class="fa-solid fa-circle-check mr-1"></i>ভেরিফায়েড ক্রেতা</span>
+                        </div>
+                        <span class="text-amber-500 text-xs shrink-0"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    </div>
+                    <p class="text-xs sm:text-sm text-stone-600 leading-relaxed">
+                        “নিজের সংগ্রহে রাখার জন্য এবং ছোট ভাইকে দেওয়ার জন্য ২ কপি অর্ডার করেছিলাম। বইয়ের কভার, বাঁধাই আর ডেলিভারি সার্ভিস সব মিলিয়ে ১০-এ ১০!”
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EMBEDDED SINGLE-PAGE E-COMMERCE CHECKOUT SECTION ==================== -->
+    <section id="checkout-section" class="py-12 sm:py-16 px-4 sm:px-6">
+        <div class="max-w-5xl mx-auto bg-white rounded-3xl border-2 border-emerald-850/20 shadow-2xl overflow-hidden">
+            
+            <!-- Checkout Header Banner -->
+            <div class="bg-emerald-950 text-white px-6 sm:px-10 py-6 text-center sm:text-left flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div>
+                    <span class="inline-block px-3 py-0.5 rounded-full bg-gold-500/20 text-gold-300 text-xs font-semibold mb-1.5">
+                        দ্রুত ও নিরাপদ অর্ডার ফর্ম
+                    </span>
+                    <h2 class="font-serif text-2xl sm:text-3xl font-bold">অর্ডার সম্পন্ন করতে নিচের তথ্যগুলো দিন</h2>
+                </div>
+                <div class="flex items-center gap-2 bg-emerald-900/90 px-4 py-2.5 rounded-2xl border border-emerald-700 text-xs sm:text-sm font-semibold text-amber-200">
+                    <i class="fa-solid fa-hand-holding-dollar text-gold-400 text-base"></i>
+                    <span>ক্যাশ অন ডেলিভারি</span>
+                </div>
+            </div>
+
+            <!-- Main Checkout Grid -->
+            <form id="orderCheckoutForm" onsubmit="submitOrder(event)" class="p-6 sm:p-10 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10">
+                
+                <!-- Left 7 Columns: Customer Details & Delivery Area -->
+                <div class="lg:col-span-7 space-y-6">
+                    
+                    <!-- Step 1: Quantity Sync Card -->
+                    <div class="p-4 sm:p-5 rounded-2xl bg-emerald-50/70 border border-emerald-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                        <div class="flex items-center gap-3.5">
+                            <div class="w-12 h-16 rounded-lg bg-emerald-900 text-gold-400 flex flex-col items-center justify-center text-center p-1 shrink-0 border border-gold-500/50">
+                                <i class="fa-solid fa-book-quran text-sm"></i>
+                                <span class="text-[8px] font-bold leading-tight mt-0.5">সীরাতুর রাসূল</span>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-emerald-950 text-base">সীরাতুর রাসূল (ছাঃ) — হার্ডকভার</h3>
+                                <p class="text-xs text-stone-600">একক মূল্য: <strong class="text-emerald-900">৳ ৭৫০</strong> × <span id="formQtyText" class="font-bold">১</span> কপি</p>
+                                <p class="text-[11px] text-emerald-800 font-semibold mt-0.5"><i class="fa-solid fa-weight-hanging mr-1"></i>মোট ওজন: <span id="formTotalWeight">১.৫</span> কেজি (প্রতি বই ১.৫ কেজি)</p>
+                            </div>
+                        </div>
+
+                        <!-- Quantity Adjuster Synced with Cart -->
+                        <div class="flex items-center self-start sm:self-center border border-emerald-300 rounded-xl bg-white h-11 px-1.5 shadow-2xs">
+                            <button type="button" onclick="changeQuantity(-1)" class="w-9 h-8 rounded-lg hover:bg-emerald-50 text-emerald-900 flex items-center justify-center transition" aria-label="কপি কমান">
+                                <i class="fa-solid fa-minus text-xs"></i>
+                            </button>
+                            <span id="checkoutQtyDisplay" class="w-10 text-center text-base font-bold text-emerald-950">১</span>
+                            <button type="button" onclick="changeQuantity(1)" class="w-9 h-8 rounded-lg hover:bg-emerald-50 text-emerald-900 flex items-center justify-center transition" aria-label="কপি বাড়ান">
+                                <i class="fa-solid fa-plus text-xs"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Customer Information -->
+                    <div class="space-y-4">
+                        <h3 class="font-bold text-lg text-emerald-950 border-b border-stone-200 pb-2">
+                            ১. গ্রাহকের তথ্য (Customer Details)
+                        </h3>
+
+                        <div>
+                            <label for="customerName" class="block text-sm font-semibold text-stone-700 mb-1.5">
+                                আপনার পূর্ণ নাম <span class="text-red-600">*</span>
+                            </label>
+                            <input 
+                                type="text" 
+                                id="customerName" 
+                                required 
+                                placeholder="যেমন: মুহাম্মদ আব্দুল্লাহ" 
+                                class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:border-emerald-850 focus:ring-2 focus:ring-emerald-850/15 text-sm sm:text-base outline-none transition"
+                            >
+                        </div>
+
+                        <div>
+                            <label for="customerPhone" class="block text-sm font-semibold text-stone-700 mb-1.5">
+                                মোবাইল নম্বর (১১ ডিজিট) <span class="text-red-600">*</span>
+                            </label>
+                            <input 
+                                type="tel" 
+                                id="customerPhone" 
+                                required 
+                                maxlength="14"
+                                placeholder="যেমন: 017XXXXXXXX" 
+                                class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:border-emerald-850 focus:ring-2 focus:ring-emerald-850/15 text-sm sm:text-base outline-none transition"
+                            >
+                        </div>
+
+                        <div>
+                            <label for="customerAddress" class="block text-sm font-semibold text-stone-700 mb-1.5">
+                                সম্পূর্ণ ডেলিভারি ঠিকানা <span class="text-red-600">*</span>
+                            </label>
+                            <textarea 
+                                id="customerAddress" 
+                                rows="2" 
+                                required 
+                                placeholder="বাসা/হোল্ডিং নং, রোড নং, এলাকা, থানা ও জেলার নাম লিখুন..." 
+                                class="w-full px-4 py-3 rounded-xl border border-stone-300 focus:border-emerald-850 focus:ring-2 focus:ring-emerald-850/15 text-sm sm:text-base outline-none transition"
+                            ></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Delivery Area Radio Selection -->
+                    <div class="space-y-3">
+                        <div class="flex flex-wrap items-center justify-between gap-2 border-b border-stone-200 pb-2">
+                            <h3 class="font-bold text-lg text-emerald-950">
+                                ২. ডেলিভারি পদ্ধতি নির্বাচন করুন <span class="text-red-600">*</span>
+                            </h3>
+                            <span class="text-xs font-semibold text-amber-800 bg-amber-50 px-2.5 py-1 rounded-full border border-amber-200">
+                                ওজন ১.৫ কেজি/বই হওয়ায় প্রতি বইয়ে চার্জ প্রযোজ্য
+                            </span>
+                        </div>
+
+                        <div class="grid grid-cols-1 gap-3">
+                            <!-- Option 1: Inside Dhaka Regular (Default Selected): 90 BDT / book -->
+                            <label id="labelInsideRegular" onclick="setDeliveryZone('inside_regular')" class="cursor-pointer relative flex items-center justify-between gap-3 p-4 rounded-2xl border-2 border-emerald-850 bg-emerald-50/70 transition select-none">
+                                <div class="flex items-start gap-3">
+                                    <input type="radio" name="deliveryZone" value="inside_regular" checked onchange="setDeliveryZone('inside_regular')" class="mt-1 w-4 h-4 accent-emerald-850 shrink-0">
+                                    <div>
+                                        <span class="block font-bold text-sm sm:text-base text-emerald-950">
+                                            <i class="fa-solid fa-truck-fast text-emerald-700 mr-1"></i> ঢাকার ভিতরে — রেগুলার ডেলিভারি (২ দিনের মধ্যে)
+                                        </span>
+                                        <span class="block text-xs text-stone-600 mt-0.5">প্রতি বই ৳৯০ (ওজন ১.৫ কেজি) • অর্ডার কনফার্মের পর ২ দিনে হোম ডেলিভারি</span>
+                                    </div>
+                                </div>
+                                <div class="text-right shrink-0">
+                                    <span class="block font-bold text-base text-emerald-950">৳৯০ <span class="text-xs font-normal text-stone-500">/ বই</span></span>
+                                    <span id="zoneTotalInsideRegular" class="block text-xs font-bold text-emerald-800 mt-0.5">১টি বই = ৳৯০</span>
+                                </div>
+                            </label>
+
+                            <!-- Option 2: Inside Dhaka Same Day: 170 BDT / book -->
+                            <label id="labelInsideSameDay" onclick="setDeliveryZone('inside_sameday')" class="cursor-pointer relative flex items-center justify-between gap-3 p-4 rounded-2xl border border-stone-300 bg-white hover:border-emerald-600 transition select-none">
+                                <div class="flex items-start gap-3">
+                                    <input type="radio" name="deliveryZone" value="inside_sameday" onchange="setDeliveryZone('inside_sameday')" class="mt-1 w-4 h-4 accent-emerald-850 shrink-0">
+                                    <div>
+                                        <span class="block font-bold text-sm sm:text-base text-emerald-950">
+                                            <i class="fa-solid fa-bolt text-amber-500 mr-1"></i> ঢাকার ভিতরে — সেইম ডে ডেলিভারি (একই দিনে)
+                                        </span>
+                                        <span class="block text-xs text-stone-600 mt-0.5">প্রতি বই ৳১৭০ (শুধুমাত্র ঢাকার জন্য • একই দিনে জরুরি হোম ডেলিভারি)</span>
+                                    </div>
+                                </div>
+                                <div class="text-right shrink-0">
+                                    <span class="block font-bold text-base text-emerald-950">৳১৭০ <span class="text-xs font-normal text-stone-500">/ বই</span></span>
+                                    <span id="zoneTotalInsideSameDay" class="block text-xs font-bold text-stone-600 mt-0.5">১টি বই = ৳১৭০</span>
+                                </div>
+                            </label>
+
+                            <!-- Option 3: Outside Dhaka Regular Courier: 150 BDT / book -->
+                            <label id="labelOutsideRegular" onclick="setDeliveryZone('outside_regular')" class="cursor-pointer relative flex items-center justify-between gap-3 p-4 rounded-2xl border border-stone-300 bg-white hover:border-emerald-600 transition select-none">
+                                <div class="flex items-start gap-3">
+                                    <input type="radio" name="deliveryZone" value="outside_regular" onchange="setDeliveryZone('outside_regular')" class="mt-1 w-4 h-4 accent-emerald-850 shrink-0">
+                                    <div>
+                                        <span class="block font-bold text-sm sm:text-base text-emerald-950">
+                                            <i class="fa-solid fa-map-location-dot text-gold-600 mr-1"></i> ঢাকার বাইরে — রেগুলার কুরিয়ার ডেলিভারি
+                                        </span>
+                                        <span class="block text-xs text-stone-600 mt-0.5">প্রতি বই ৳১৫০ (সারা বাংলাদেশের যেকোনো জেলা ও উপজেলায় হোম ডেলিভারি)</span>
+                                    </div>
+                                </div>
+                                <div class="text-right shrink-0">
+                                    <span class="block font-bold text-base text-emerald-950">৳১৫০ <span class="text-xs font-normal text-stone-500">/ বই</span></span>
+                                    <span id="zoneTotalOutsideRegular" class="block text-xs font-bold text-stone-600 mt-0.5">১টি বই = ৳১৫০</span>
+                                </div>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Step 4: Payment Method Selector (Bangla QR Advance Payment Default vs COD) -->
+                    <div class="space-y-3">
+                        <h3 class="font-bold text-lg text-emerald-950 border-b border-stone-200 pb-2">
+                            ৩. পেমেন্ট পদ্ধতি নির্বাচন করুন <span class="text-red-600">*</span>
+                        </h3>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <!-- Advance Payment (Bangla QR) Card - Selected by Default -->
+                            <label id="labelPaymentAdvance" onclick="setPaymentType('advance')" class="cursor-pointer p-4 rounded-2xl border-2 border-emerald-850 bg-emerald-50/70 flex items-start gap-3 transition select-none">
+                                <input type="radio" id="radioPaymentAdvance" name="paymentType" value="advance" checked onchange="setPaymentType('advance')" class="mt-1 w-4 h-4 accent-emerald-850">
+                                <div>
+                                    <span class="block font-bold text-sm sm:text-base text-emerald-950">
+                                        <i class="fa-solid fa-qrcode text-gold-600 mr-1"></i> অ্যাডভান্স পেমেন্ট (বাংলা QR)
+                                    </span>
+                                    <span class="block text-xs text-stone-600 mt-0.5">যেকোনো ব্যাংক বা মোবাইল ব্যাংকিং অ্যাপ দিয়ে স্ক্যান করে পেমেন্ট করুন।</span>
+                                </div>
+                            </label>
+
+                            <!-- COD Card -->
+                            <label id="labelPaymentCod" onclick="setPaymentType('cod')" class="cursor-pointer p-4 rounded-2xl border border-stone-300 bg-white hover:border-emerald-600 flex items-start gap-3 transition select-none">
+                                <input type="radio" id="radioPaymentCod" name="paymentType" value="cod" onchange="setPaymentType('cod')" class="mt-1 w-4 h-4 accent-emerald-850">
+                                <div>
+                                    <span class="block font-bold text-sm sm:text-base text-emerald-950">
+                                        <i class="fa-solid fa-hand-holding-dollar text-emerald-700 mr-1"></i> ক্যাশ অন ডেলিভারি (COD)
+                                    </span>
+                                    <span class="block text-xs text-stone-600 mt-0.5">বই হাতে পেয়ে ডেলিভারিম্যানকে টাকা পরিশোধ করুন।</span>
+                                </div>
+                            </label>
+                        </div>
+
+                        <!-- Bangla QR Advance Payment Panel (Visible by default) -->
+                        <div id="advancePaymentPanel" class="p-4 sm:p-6 rounded-2xl bg-gradient-to-b from-amber-50/90 to-emerald-50/60 border-2 border-emerald-700/40 space-y-5 transition-all">
+                            
+                            <!-- Bangla QR Header & Live Total -->
+                            <div class="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-amber-200/80">
+                                <div class="flex items-center gap-2">
+                                    <span class="w-8 h-8 rounded-lg bg-emerald-850 text-gold-400 flex items-center justify-center text-sm shrink-0">
+                                        <i class="fa-solid fa-qrcode"></i>
+                                    </span>
+                                    <div>
+                                        <span class="block text-xs sm:text-sm font-bold text-emerald-950">বাংলা QR (Bangla QR) পেমেন্ট</span>
+                                        <span class="block text-[11px] text-stone-600">যেকোনো ব্যাংক বা মোবাইল ব্যাংকিং অ্যাপ দিয়ে স্ক্যান করুন</span>
+                                    </div>
+                                </div>
+                                <span class="text-xs sm:text-sm font-bold text-emerald-950 bg-white px-3 py-1.5 rounded-xl border border-emerald-300 shadow-2xs">
+                                    মোট পরিশোধযোগ্য: <span id="advancePayableDisplay" class="text-emerald-800">৳ ৮৪০</span>
+                                </span>
+                            </div>
+
+                            <!-- QR Code Showcase + Supported Apps -->
+                            <div class="grid grid-cols-1 sm:grid-cols-12 gap-5 items-center bg-white p-4 sm:p-5 rounded-2xl border border-stone-200 shadow-xs">
+                                <!-- Left: Crisp QR Image + Zoom/Download -->
+                                <div class="sm:col-span-5 flex flex-col items-center text-center">
+                                    <div class="relative p-2.5 bg-white rounded-2xl border-2 border-emerald-850/80 shadow-md inline-block">
+                                        <img 
+                                            src="payment-qr.png" 
+                                            alt="বাংলা QR কোড - অ্যাডভান্স পেমেন্ট" 
+                                            onerror="this.onerror=null; this.src='https://placehold.co/240x240/ffffff/064E3B?text=Bangla+QR';"
+                                            class="w-40 h-40 sm:w-44 sm:h-44 object-contain rounded-lg mx-auto"
+                                        >
+                                    </div>
+
+                                    <div class="mt-2.5 flex items-center justify-center gap-2">
+                                        <button 
+                                            type="button" 
+                                            onclick="openQrZoomModal()" 
+                                            class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-emerald-50 hover:bg-emerald-100 text-emerald-900 border border-emerald-200 text-[11px] font-bold transition"
+                                        >
+                                            <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                            <span>QR কোড বড় করে দেখুন</span>
+                                        </button>
+                                        <a 
+                                            href="payment-qr.png" 
+                                            download="Seeratur-Rasool-Bangla-QR.png" 
+                                            class="inline-flex items-center gap-1 px-2.5 py-1.5 rounded-lg bg-stone-100 hover:bg-stone-200 text-stone-700 text-[11px] font-bold transition"
+                                            title="QR কোড ডাউনলোড করুন"
+                                        >
+                                            <i class="fa-solid fa-download"></i>
+                                            <span>সেভ</span>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Right: Instructions & Supported Apps Badges -->
+                                <div class="sm:col-span-7 space-y-3 text-xs text-stone-700">
+                                    <p class="font-bold text-emerald-950 text-sm">
+                                        যেকোনো অ্যাপ থেকে পেমেন্ট করার নিয়ম:
+                                    </p>
+                                    <ol class="list-decimal list-inside space-y-1.5 text-stone-600 leading-relaxed">
+                                        <li>আপনার মোবাইলের যেকোনো পেমেন্ট অ্যাপ ওপেন করে <strong>Scan QR / Bangla QR</strong> অপশনে যান।</li>
+                                        <li>পাশের QR কোডটি স্ক্যান করে সর্বমোট <strong id="advanceInstructionTotal" class="text-emerald-950">৳ ৮৪০</strong> পরিশোধ করুন।</li>
+                                        <li>পেমেন্ট সফল হলে নিচের ফর্মে অ্যাপের নাম, আপনার নম্বর ও <strong>TrxID</strong> লিখে অর্ডার কনফার্ম করুন।</li>
+                                    </ol>
+
+                                    <!-- Supported Apps Badges -->
+                                    <div class="pt-1">
+                                        <span class="block text-[11px] font-semibold text-stone-500 mb-1.5">সাপোর্টেড অ্যাপসমূহ (Bangla QR / NPSB):</span>
+                                        <div class="flex flex-wrap gap-1.5">
+                                            <span class="px-2 py-0.5 rounded-md bg-[#E2136E]/10 text-[#E2136E] border border-[#E2136E]/30 font-bold text-[11px]">bKash (বিকাশ)</span>
+                                            <span class="px-2 py-0.5 rounded-md bg-[#F6921E]/10 text-[#d97706] border border-[#F6921E]/30 font-bold text-[11px]">Nagad (নগদ)</span>
+                                            <span class="px-2 py-0.5 rounded-md bg-[#8C3494]/10 text-[#8C3494] border border-[#8C3494]/30 font-bold text-[11px]">Rocket (রকেট)</span>
+                                            <span class="px-2 py-0.5 rounded-md bg-sky-50 text-sky-700 border border-sky-200 font-bold text-[11px]">Upay (উপায়)</span>
+                                            <span class="px-2 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200 font-bold text-[11px]">যেকোনো ব্যাংক অ্যাপ</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- QR Payment Verification Inputs -->
+                            <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                                <div>
+                                    <label for="advancePaymentApp" class="block text-xs font-bold text-stone-700 mb-1">
+                                        যে অ্যাপ থেকে পেমেন্ট করেছেন <span class="text-red-600">*</span>
+                                    </label>
+                                    <select 
+                                        id="advancePaymentApp" 
+                                        class="w-full px-3 py-2.5 rounded-xl border border-stone-300 bg-white focus:border-emerald-850 text-xs sm:text-sm font-semibold text-stone-800 outline-none"
+                                    >
+                                        <option value="bKash (বিকাশ)">bKash (বিকাশ)</option>
+                                        <option value="Nagad (নগদ)">Nagad (নগদ)</option>
+                                        <option value="Rocket (রকেট)">Rocket (রকেট)</option>
+                                        <option value="Upay (উপায়)">Upay (উপায়)</option>
+                                        <option value="CellFin / NexusPay (ব্যাংক অ্যাপ)">CellFin / NexusPay (ব্যাংক অ্যাপ)</option>
+                                        <option value="অন্যান্য ব্যাংক / Bangla QR অ্যাপ">অন্যান্য ব্যাংক / Bangla QR অ্যাপ</option>
+                                    </select>
+                                </div>
+                                <div>
+                                    <label for="advanceSenderNumber" class="block text-xs font-bold text-stone-700 mb-1">
+                                        প্রেরকের নম্বর / অ্যাকাউন্ট <span class="text-red-600">*</span>
+                                    </label>
+                                    <input 
+                                        type="text" 
+                                        id="advanceSenderNumber" 
+                                        placeholder="01XXXXXXXXX" 
+                                        class="w-full px-3.5 py-2.5 rounded-xl border border-stone-300 bg-white focus:border-emerald-850 text-xs sm:text-sm outline-none"
+                                    >
+                                </div>
+                                <div>
+                                    <label for="advanceTrxId" class="block text-xs font-bold text-stone-700 mb-1">
+                                        ট্রানজেকশন আইডি (TrxID) <span class="text-red-600">*</span>
+                                    </label>
+                                    <input 
+                                        type="text" 
+                                        id="advanceTrxId" 
+                                        placeholder="যেমন: 9H7K2L5M1P" 
+                                        class="w-full px-3.5 py-2.5 rounded-xl border border-stone-300 bg-white focus:border-emerald-850 text-xs sm:text-sm uppercase outline-none"
+                                    >
+                                </div>
+                            </div>
+
+                            <div class="flex flex-wrap items-center justify-between gap-2 text-[11px] text-stone-600 pt-1">
+                                <span>পেমেন্ট করতে কোনো সমস্যা হলে সরাসরি সহায়তা নিন:</span>
+                                <a href="https://wa.me/GoAbdullah?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%AC%E0%A6%BE%E0%A6%82%E0%A6%B2%E0%A6%BE%20QR%20%E0%A6%A6%E0%A6%BF%E0%A7%9F%E0%A7%87%20%E0%A6%85%E0%A7%8D%E0%A6%AF%E0%A6%BE%E0%A6%A1%E0%A6%AD%E0%A6%BE%E0%A6%A8%E0%A7%8D%E0%A6%B8%20%E0%A6%AA%E0%A7%87%E0%A6%AE%E0%A7%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%20%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87%20%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A6%BE%20%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A7%8B%E0%A6%9C%E0%A6%A8%E0%A5%A4" target="_blank" rel="noopener noreferrer" class="font-bold text-[#128C7E] hover:underline flex items-center gap-1">
+                                    <i class="fa-brands fa-whatsapp text-sm"></i> হোয়াটসঅ্যাপে যোগাযোগ করুন
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Right 5 Columns: Live Order Summary & Cash on Delivery Box -->
+                <div class="lg:col-span-5 flex flex-col justify-between bg-stone-50 rounded-2xl border border-stone-200 p-6">
+                    <div>
+                        <h3 class="font-serif font-bold text-xl text-emerald-950 pb-3 border-b border-stone-200 mb-4">
+                            আপনার অর্ডারের হিসাব
+                        </h3>
+
+                        <!-- Itemized Breakdown -->
+                        <div class="space-y-3 text-sm sm:text-base">
+                            <div class="flex justify-between items-center text-stone-700">
+                                <span>সীরাতুর রাসূল (ছাঃ) × <strong id="summaryQty" class="text-emerald-950">১ কপি</strong></span>
+                                <span id="summarySubtotal" class="font-bold text-stone-900">৳ ৭৫০</span>
+                            </div>
+
+                            <div class="flex justify-between items-start gap-2 text-stone-700">
+                                <div>
+                                    <span class="block">ডেলিভারি চার্জ (<span id="summaryZoneLabel">ঢাকার ভিতরে - রেগুলার</span>)</span>
+                                    <span id="summaryShippingFormula" class="block text-xs font-semibold text-emerald-800 mt-0.5">৳৯০ × ১টি বই = ৳৯০</span>
+                                </div>
+                                <span id="summaryShipping" class="font-bold text-stone-900 shrink-0">৳ ৯০</span>
+                            </div>
+
+                            <div class="pt-3 mt-3 border-t-2 border-dashed border-stone-300 flex justify-between items-center">
+                                <span class="font-bold text-base sm:text-lg text-emerald-950">সর্বমোট পরিশোধযোগ্য:</span>
+                                <div class="text-right">
+                                    <span id="summaryGrandTotalBn" class="block font-bold text-2xl text-emerald-900">৳ ৮৪০</span>
+                                    <span id="summaryGrandTotalEn" class="text-xs text-stone-500 font-medium">(840 BDT)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Dynamic Payment Method Summary Box -->
+                        <div id="summaryPaymentBox" class="mt-6 p-4 rounded-xl bg-amber-50 border border-amber-200/90">
+                            <div class="flex items-center gap-2.5 font-bold text-amber-950 text-sm mb-1">
+                                <i class="fa-solid fa-circle-check text-emerald-700 text-base"></i>
+                                <span id="summaryPaymentTitle">পেমেন্ট পদ্ধতি: অ্যাডভান্স পেমেন্ট (বাংলা QR)</span>
+                            </div>
+                            <p id="summaryPaymentDesc" class="text-xs text-amber-900/85 leading-relaxed">
+                                বাংলা QR কোড স্ক্যান করে ৳ ৮৪০ পরিশোধ করে অ্যাপের নাম, প্রেরকের নম্বর ও ট্রানজেকশন আইডি (TrxID) প্রদান করুন।
+                            </p>
+                        </div>
+
+                        <!-- WhatsApp Help Banner inside Checkout -->
+                        <div class="mt-4 p-3.5 rounded-xl bg-[#25D366]/10 border border-[#25D366]/35 flex items-center justify-between gap-2 text-xs">
+                            <span class="font-semibold text-emerald-950">যেকোনো সহায়তায় মেসেজ দিন:</span>
+                            <a href="https://wa.me/GoAbdullah?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%20%E0%A6%95%E0%A6%B0%E0%A6%A4%E0%A7%87%20%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A6%BE%20%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A7%8B%E0%A6%9C%E0%A6%A8%E0%A5%A4" target="_blank" rel="noopener noreferrer" class="font-bold text-[#128C7E] hover:underline shrink-0 flex items-center gap-1.5">
+                                <i class="fa-brands fa-whatsapp text-base"></i> হোয়াটসঅ্যাপে হেল্প নিন
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Validation Error Box -->
+                    <div id="formErrorAlert" class="hidden mt-4 p-3 rounded-xl bg-red-50 border border-red-200 text-red-700 text-xs font-semibold"></div>
+
+                    <!-- Submit Order Button -->
+                    <div class="mt-6">
+                        <button 
+                            type="submit" 
+                            class="w-full py-4 px-6 rounded-2xl bg-emerald-850 hover:bg-emerald-950 text-white font-bold text-base sm:text-lg shadow-lg hover:shadow-xl transition flex items-center justify-center gap-2.5 active:scale-[0.99]"
+                        >
+                            <i class="fa-brands fa-whatsapp text-[#25D366] text-xl"></i>
+                            <span id="submitOrderBtnText">অর্ডার কনফার্ম করুন (৳ ৮৪০)</span>
+                        </button>
+                        <p class="text-[11px] text-center text-stone-500 mt-2.5">
+                            <i class="fa-solid fa-shield-halved text-emerald-700 mr-1"></i> অর্ডার কনফার্ম করলে স্বয়ংক্রিয়ভাবে হোয়াটসঅ্যাপে অর্ডার বিবরণী তৈরি হবে
+                        </p>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="bg-emerald-950 text-emerald-100/80 py-8 px-4 sm:px-6 text-center text-xs sm:text-sm border-t border-emerald-900">
+        <div class="max-w-6xl mx-auto space-y-2.5">
+            <p class="font-serif font-bold text-base text-white">সীরাতুর রাসূল (ছাঃ) — অনলাইন বুক অর্ডার</p>
+            <p>লেখক: প্রফেসর ড. মুহাম্মদ আসাদুল্লাহ আল-গালিব | প্রকাশনায়: হাদীছ ফাউন্ডেশন বাংলাদেশ</p>
+            <div class="pt-1">
+                <a href="https://wa.me/GoAbdullah?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%B8%E0%A7%80%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%81%E0%A6%B0%20%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%82%E0%A6%B2%20(%E0%A6%9B%E0%A6%BE%E0%A6%83)%20%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%9C%E0%A6%BE%E0%A6%A8%E0%A6%A4%E0%A7%87%20%E0%A6%9A%E0%A6%BE%E0%A6%87%E0%A5%A4" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#25D366]/20 hover:bg-[#25D366]/30 text-emerald-100 border border-[#25D366]/40 text-xs font-bold transition">
+                    <i class="fa-brands fa-whatsapp text-[#25D366] text-base"></i>
+                    <span>হোয়াটসঅ্যাপ কাস্টমার কেয়ার</span>
+                </a>
+            </div>
+            <p class="text-emerald-300/60 text-xs pt-2">© ২০২৬ সীরাতুর রাসূল (ছাঃ) — সর্বস্বত্ব সংরক্ষিত</p>
+        </div>
+    </footer>
+
+    <!-- ==================== FLOATING WHATSAPP HELP WIDGET ==================== -->
+    <a 
+        href="https://wa.me/GoAbdullah?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%B8%E0%A7%80%E0%A6%B0%E0%A6%BE%E0%A6%A4%E0%A7%81%E0%A6%B0%20%E0%A6%B0%E0%A6%BE%E0%A6%B8%E0%A7%82%E0%A6%B2%20(%E0%A6%9B%E0%A6%BE%E0%A6%83)%20%E0%A6%AC%E0%A6%87%E0%A6%9F%E0%A6%BF%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%B8%E0%A6%BE%E0%A6%B9%E0%A6%BE%E0%A6%AF%E0%A7%8D%E0%A6%AF%20%E0%A6%B2%E0%A6%BE%E0%A6%97%E0%A6%AC%E0%A7%87%E0%A5%A4" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        class="fixed bottom-20 md:bottom-6 right-4 md:right-6 z-40 group flex items-center gap-2.5 bg-[#25D366] hover:bg-[#1ebe5d] text-white px-3.5 py-3 md:px-4 md:py-3 rounded-full shadow-2xl border-2 border-white transition-all hover:scale-105"
+        aria-label="হোয়াটসঅ্যাপে সাহায্য নিন"
+    >
+        <i class="fa-brands fa-whatsapp text-2xl"></i>
+        <span class="hidden sm:inline text-xs font-bold pr-1">সাহায্য লাগবে? হোয়াটসঅ্যাপ করুন</span>
+    </a>
+
+    <!-- ==================== FLOATING BOTTOM BAR FOR MOBILE ==================== -->
+    <div class="md:hidden fixed bottom-0 inset-x-0 z-30 bg-white/95 backdrop-blur-md border-t border-stone-200 px-4 py-2.5 shadow-2xl flex items-center justify-between gap-3">
+        <div>
+            <span class="block text-[11px] text-stone-500 font-medium">মোট (<span id="mobileBarQty">১</span> কপি + ডেলিভারি)</span>
+            <span id="mobileBarTotal" class="font-bold text-lg text-emerald-950 leading-tight">৳ ৮৪০</span>
+        </div>
+        <div class="flex items-center gap-2">
+            <button 
+                type="button"
+                onclick="toggleCartDrawer(true)" 
+                class="px-3.5 py-2.5 rounded-xl bg-emerald-50 text-emerald-900 border border-emerald-200 text-xs font-bold"
+            >
+                <i class="fa-solid fa-cart-shopping mr-1"></i> কার্ট
+            </button>
+            <a 
+                href="#checkout-section" 
+                class="px-4 py-2.5 rounded-xl bg-gold-600 text-white text-xs font-bold shadow-sm"
+            >
+                অর্ডার করুন
+            </a>
+        </div>
+    </div>
+
+    <!-- ==================== SLIDE-OVER E-COMMERCE CART DRAWER ==================== -->
+    <div id="cartDrawer" class="fixed inset-0 z-50 hidden" role="dialog" aria-modal="true">
+        <!-- Backdrop -->
+        <div id="cartBackdrop" class="fixed inset-0 bg-emerald-950/60 backdrop-blur-xs transition-opacity opacity-0" onclick="toggleCartDrawer(false)"></div>
+
+        <!-- Drawer Panel -->
+        <div id="cartPanel" class="fixed inset-y-0 right-0 w-full max-w-md bg-white shadow-2xl flex flex-col transform translate-x-full transition-transform duration-300 ease-out">
+            
+            <!-- Drawer Header -->
+            <div class="px-6 py-4 bg-emerald-950 text-white flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                    <i class="fa-solid fa-cart-shopping text-gold-400"></i>
+                    <h2 class="font-serif text-lg font-bold">আপনার শপিং কার্ট</h2>
+                </div>
+                <button onclick="toggleCartDrawer(false)" class="w-8 h-8 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Cart Body -->
+            <div class="flex-1 overflow-y-auto p-6 space-y-5">
+                <!-- Cart Item Card -->
+                <div class="flex gap-4 p-4 rounded-2xl bg-stone-50 border border-stone-200">
+                    <div class="w-16 h-22 rounded-xl bg-emerald-900 text-gold-400 flex flex-col items-center justify-center text-center p-1.5 shrink-0 border border-gold-500/50">
+                        <i class="fa-solid fa-book-quran text-base"></i>
+                        <span class="text-[9px] font-bold leading-tight mt-1">সীরাতুর রাসূল (ছাঃ)</span>
+                    </div>
+                    <div class="flex-1">
+                        <h3 class="font-bold text-emerald-950 text-sm sm:text-base">সীরাতুর রাসূল (ছাঃ)</h3>
+                        <p class="text-xs text-stone-500 mb-2">হার্ডকভার (১.৫ কেজি) | একক মূল্য: ৳৭৫০</p>
+                        
+                        <div class="flex items-center justify-between pt-1">
+                            <!-- Quantity Stepper -->
+                            <div class="flex items-center border border-stone-300 rounded-lg bg-white">
+                                <button type="button" onclick="changeQuantity(-1)" class="w-8 h-8 flex items-center justify-center text-stone-700 hover:bg-stone-100 rounded-l-lg">
+                                    <i class="fa-solid fa-minus text-xs"></i>
+                                </button>
+                                <span id="drawerQtyDisplay" class="w-9 text-center text-sm font-bold text-emerald-950">১</span>
+                                <button type="button" onclick="changeQuantity(1)" class="w-8 h-8 flex items-center justify-center text-stone-700 hover:bg-stone-100 rounded-r-lg">
+                                    <i class="fa-solid fa-plus text-xs"></i>
+                                </button>
+                            </div>
+
+                            <span id="drawerSubtotal" class="font-bold text-base text-emerald-950">৳ ৭৫০</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Delivery Zone Quick Switcher inside Cart -->
+                <div class="p-4 rounded-2xl bg-emerald-50/60 border border-emerald-200 space-y-2.5">
+                    <span class="block text-xs font-bold text-emerald-950">ডেলিভারি পদ্ধতি নির্বাচন করুন (প্রতি বইয়ের চার্জ):</span>
+                    <div class="grid grid-cols-1 gap-2">
+                        <button type="button" id="drawerZoneSameDayBtn" onclick="setDeliveryZone('inside_sameday')" class="py-2 px-3 rounded-xl text-xs font-bold border border-stone-300 bg-white text-stone-700 text-left flex justify-between items-center transition">
+                            <span>ঢাকার ভিতরে (সেইম ডে - একই দিনে)</span>
+                            <span>৳১৭০ / বই</span>
+                        </button>
+                        <button type="button" id="drawerZoneRegularBtn" onclick="setDeliveryZone('inside_regular')" class="py-2 px-3 rounded-xl text-xs font-bold border-2 border-emerald-850 bg-emerald-850 text-white text-left flex justify-between items-center transition">
+                            <span>ঢাকার ভিতরে (রেগুলার - ২ দিনে)</span>
+                            <span>৳৯০ / বই</span>
+                        </button>
+                        <button type="button" id="drawerZoneOutsideBtn" onclick="setDeliveryZone('outside_regular')" class="py-2 px-3 rounded-xl text-xs font-bold border border-stone-300 bg-white text-stone-700 text-left flex justify-between items-center transition">
+                            <span>ঢাকার বাইরে (রেগুলার কুরিয়ার)</span>
+                            <span>৳১৫০ / বই</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Drawer Footer -->
+            <div class="p-6 border-t border-stone-200 bg-stone-50 space-y-4">
+                <div class="space-y-2 text-sm">
+                    <div class="flex justify-between text-stone-600">
+                        <span>বইয়ের মূল্য (<span id="drawerFooterQty">১</span> কপি)</span>
+                        <span id="drawerFooterSubtotal" class="font-bold text-stone-900">৳ ৭৫০</span>
+                    </div>
+                    <div class="flex justify-between items-start gap-2 text-stone-600">
+                        <div>
+                            <span class="block">ডেলিভারি চার্জ</span>
+                            <span id="drawerShippingFormula" class="block text-[11px] font-semibold text-emerald-800">৳৯০ × ১টি বই = ৳৯০</span>
+                        </div>
+                        <span id="drawerFooterShipping" class="font-bold text-stone-900">৳ ৯০</span>
+                    </div>
+                    <div class="flex justify-between text-base font-bold text-emerald-950 pt-2 border-t border-stone-200">
+                        <span>সর্বমোট</span>
+                        <span id="drawerFooterTotal" class="text-lg">৳ ৮৪০</span>
+                    </div>
+                </div>
+
+                <!-- WhatsApp Help inside Cart Drawer -->
+                <a 
+                    href="https://wa.me/GoAbdullah?text=%E0%A6%86%E0%A6%B8%E0%A6%B8%E0%A6%BE%E0%A6%B2%E0%A6%BE%E0%A6%AE%E0%A7%81%20%E0%A6%86%E0%A6%B2%E0%A6%BE%E0%A6%87%E0%A6%95%E0%A7%81%E0%A6%AE%2C%20%E0%A6%95%E0%A6%BE%E0%A6%B0%E0%A7%8D%E0%A6%9F%20%E0%A6%93%20%E0%A6%85%E0%A6%B0%E0%A7%8D%E0%A6%A1%E0%A6%BE%E0%A6%B0%20%E0%A6%B8%E0%A6%AE%E0%A7%8D%E0%A6%AA%E0%A6%B0%E0%A7%8D%E0%A6%95%E0%A7%87%20%E0%A6%B8%E0%A6%B9%E0%A6%BE%E0%A7%9F%E0%A6%A4%E0%A6%BE%20%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%9F%E0%A7%8B%E0%A6%9C%E0%A6%A8%E0%A5%A4" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="w-full py-2.5 px-3 rounded-xl bg-[#25D366]/15 hover:bg-[#25D366]/25 text-emerald-950 border border-[#25D366]/40 text-xs font-bold flex items-center justify-center gap-2 transition"
+                >
+                    <i class="fa-brands fa-whatsapp text-[#128C7E] text-base"></i>
+                    <span>যেকোনো সহায়তায় হোয়াটসঅ্যাপে মেসেজ দিন</span>
+                </a>
+
+                <button 
+                    type="button"
+                    onclick="proceedFromCartToCheckout()" 
+                    class="w-full py-3.5 rounded-xl bg-gold-600 hover:bg-gold-700 text-white font-bold text-sm sm:text-base shadow-md transition flex items-center justify-center gap-2"
+                >
+                    <span>অর্ডার সম্পন্ন করুন</span>
+                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== READ SAMPLE CHAPTERS MODAL ==================== -->
+    <!-- ==================== BANGLA QR ZOOM MODAL ==================== -->
+    <div id="qrZoomModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4" role="dialog" aria-modal="true">
+        <div class="fixed inset-0 bg-emerald-950/80 backdrop-blur-xs" onclick="closeQrZoomModal()"></div>
+        
+        <div class="relative z-10 w-full max-w-sm bg-white rounded-3xl shadow-2xl overflow-hidden p-6 text-center space-y-4">
+            <div class="flex items-center justify-between border-b border-stone-200 pb-3">
+                <div class="text-left">
+                    <h3 class="font-serif font-bold text-lg text-emerald-950">বাংলা QR কোড স্ক্যান করুন</h3>
+                    <p class="text-xs text-stone-500">যেকোনো ব্যাংক বা মোবাইল ব্যাংকিং অ্যাপ দিয়ে স্ক্যানযোগ্য</p>
+                </div>
+                <button type="button" onclick="closeQrZoomModal()" class="w-8 h-8 rounded-full bg-stone-100 hover:bg-stone-200 text-stone-700 flex items-center justify-center">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <div class="p-4 bg-white rounded-2xl border-2 border-emerald-850 shadow-inner inline-block">
+                <img 
+                    src="payment-qr.png" 
+                    alt="বাংলা QR কোড বড় প্রিভিউ" 
+                    onerror="this.onerror=null; this.src='https://placehold.co/320x320/ffffff/064E3B?text=Bangla+QR';"
+                    class="w-64 h-64 sm:w-72 sm:h-72 object-contain mx-auto"
+                >
+            </div>
+
+            <div class="bg-emerald-50 border border-emerald-200 rounded-xl py-2 px-3 text-xs font-bold text-emerald-950">
+                মোট পরিশোধযোগ্য বিল: <span id="zoomModalPayable" class="text-emerald-800 text-sm">৳ ৮৪০</span>
+            </div>
+
+            <div class="flex gap-2.5">
+                <a 
+                    href="payment-qr.png" 
+                    download="Seeratur-Rasool-Bangla-QR.png" 
+                    class="flex-1 py-2.5 px-4 rounded-xl bg-emerald-850 hover:bg-emerald-950 text-white font-bold text-xs sm:text-sm transition flex items-center justify-center gap-1.5"
+                >
+                    <i class="fa-solid fa-download"></i>
+                    <span>QR কোড সেভ করুন</span>
+                </a>
+                <button 
+                    type="button" 
+                    onclick="closeQrZoomModal()" 
+                    class="py-2.5 px-4 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-800 font-bold text-xs sm:text-sm transition"
+                >
+                    বন্ধ করুন
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== ORDER CONFIRMATION INVOICE MODAL ==================== -->
+    <div id="confirmationModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4" role="dialog" aria-modal="true">
+        <div class="fixed inset-0 bg-emerald-950/75 backdrop-blur-xs" onclick="closeConfirmationModal()"></div>
+
+        <div class="relative z-10 w-full max-w-lg bg-white rounded-3xl shadow-2xl overflow-hidden p-6 sm:p-8 text-center">
+            <div class="w-16 h-16 rounded-full bg-emerald-100 text-emerald-700 flex items-center justify-center mx-auto mb-4 text-3xl">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+
+            <span id="invoiceOrderId" class="inline-block px-3 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-bold mb-2">
+                অর্ডার নাম্বার: ১০১
+            </span>
+            <h2 class="font-serif text-2xl sm:text-3xl font-bold text-emerald-950 mb-1.5">জাযাকাল্লাহু খাইরান!</h2>
+            <p class="text-sm text-stone-600 mb-5">
+                আপনার অর্ডারটি সফলভাবে গৃহীত হয়েছে। শীঘ্রই আমাদের প্রতিনিধি আপনার সাথে যোগাযোগ করবেন।
+            </p>
+
+            <!-- Invoice Summary Card -->
+            <div class="bg-stone-50 border border-stone-200 rounded-2xl p-4 sm:p-5 text-left text-xs sm:text-sm space-y-2.5 mb-6">
+                <div class="flex justify-between">
+                    <span class="text-stone-500">গ্রাহকের নাম:</span>
+                    <span id="invName" class="font-bold text-stone-900"></span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-stone-500">মোবাইল নম্বর:</span>
+                    <span id="invPhone" class="font-bold text-stone-900"></span>
+                </div>
+                <div class="flex justify-between gap-4">
+                    <span class="text-stone-500 shrink-0">ডেলিভারি ঠিকানা:</span>
+                    <span id="invAddress" class="font-medium text-stone-900 text-right"></span>
+                </div>
+                <div class="border-t border-stone-200 pt-2 flex justify-between">
+                    <span class="text-stone-500">বইয়ের পরিমাণ:</span>
+                    <span id="invQty" class="font-bold text-emerald-900"></span>
+                </div>
+                <div class="flex justify-between">
+                    <span class="text-stone-500">ডেলিভারি চার্জ:</span>
+                    <span id="invShipping" class="font-semibold text-stone-900"></span>
+                </div>
+                <div class="flex justify-between gap-4">
+                    <span class="text-stone-500 shrink-0">পেমেন্ট পদ্ধতি:</span>
+                    <span id="invPayment" class="font-semibold text-emerald-900 text-right"></span>
+                </div>
+                <div class="border-t border-stone-300 pt-2 flex justify-between text-base font-bold text-emerald-950">
+                    <span>সর্বমোট বিল:</span>
+                    <span id="invTotal"></span>
+                </div>
+            </div>
+
+            <div class="space-y-2.5">
+                <a 
+                    id="invWhatsappBtn"
+                    href="https://wa.me/GoAbdullah" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="w-full py-3.5 px-4 rounded-xl bg-[#25D366] hover:bg-[#1ebe5d] text-white font-bold text-xs sm:text-sm shadow-md transition flex items-center justify-center gap-2"
+                >
+                    <i class="fa-brands fa-whatsapp text-lg"></i>
+                    <span>হোয়াটসঅ্যাপে অর্ডার মেসেজ পাঠান</span>
+                </a>
+
+                <div class="flex flex-col sm:flex-row gap-2.5">
+                    <button onclick="copyInvoiceDetails()" class="flex-1 py-2.5 px-4 rounded-xl bg-stone-100 hover:bg-stone-200 text-stone-800 font-bold text-xs sm:text-sm transition">
+                        <i class="fa-regular fa-copy mr-1.5"></i> অর্ডার তথ্য কপি করুন
+                    </button>
+                    <button onclick="closeConfirmationModal()" class="flex-1 py-2.5 px-4 rounded-xl bg-emerald-850 hover:bg-emerald-950 text-white font-bold text-xs sm:text-sm transition">
+                        ঠিক আছে
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ==================== TOAST NOTIFICATION ==================== -->
+    <div id="toastBox" class="fixed top-20 right-4 z-50 pointer-events-none transition-all duration-300 opacity-0 translate-y-2"></div>
+
+    <!-- ==================== JAVASCRIPT LOGIC ==================== -->
+    <script>
+        // Constants
+        const BOOK_UNIT_PRICE = 750;
+        const BOOK_WEIGHT_KG = 1.5;
+        const WHATSAPP_BASE_URL = 'https://wa.me/GoAbdullah';
+        const DELIVERY_RATES = {
+            inside_sameday: { label: 'ঢাকার ভিতরে - সেইম ডে (একই দিনে)', shortLabel: 'ঢাকার ভিতরে - সেইম ডে', feePerBook: 170 },
+            inside_regular: { label: 'ঢাকার ভিতরে - রেগুলার (২ দিনে)', shortLabel: 'ঢাকার ভিতরে - রেগুলার', feePerBook: 90 },
+            outside_regular: { label: 'ঢাকার বাইরে - রেগুলার কুরিয়ার', shortLabel: 'ঢাকার বাইরে - রেগুলার', feePerBook: 150 }
+        };
+
+        // Central Cart & Order State
+        let orderState = {
+            quantity: 1,
+            deliveryZone: 'inside_regular', // Default: Inside Dhaka Regular (90 BDT/book)
+            paymentType: 'advance', // Default: Bangla QR Advance Payment
+            lastInvoiceText: ''
+        };
+
+        // Helper: Convert English digits to Bengali digits
+        function toBengaliNumber(num) {
+            const bnDigits = ['০', '১', '২', '৩', '৪', '৫', '৬', '৭', '৮', '৯'];
+            return num.toString().replace(/\d/g, d => bnDigits[d]);
+        }
+
+        function formatBdt(amount) {
+            return '৳ ' + toBengaliNumber(amount.toLocaleString('en-IN'));
+        }
+
+        // Sequential Order Number Generator starting from 100 (101, 102, 103...)
+        function getNextOrderNumber() {
+            let currentSeq = 100;
+            try {
+                const saved = parseInt(localStorage.getItem('seerat_order_seq'), 10);
+                if (!isNaN(saved) && saved >= 100) {
+                    currentSeq = saved;
+                }
+                const nextSeq = currentSeq + 1;
+                localStorage.setItem('seerat_order_seq', nextSeq.toString());
+                return nextSeq;
+            } catch (e) {
+                if (!window._fallbackOrderSeq) window._fallbackOrderSeq = 100;
+                window._fallbackOrderSeq += 1;
+                return window._fallbackOrderSeq;
+            }
+        }
+
+        // Quantity & Delivery Zone Updaters
+        function setQuantity(newQty) {
+            orderState.quantity = Math.max(1, Math.min(100, newQty));
+            syncAllUI();
+        }
+
+        function changeQuantity(delta) {
+            setQuantity(orderState.quantity + delta);
+        }
+
+        function setDeliveryZone(zone) {
+            if (!DELIVERY_RATES[zone]) return;
+            orderState.deliveryZone = zone;
+            syncAllUI();
+        }
+
+        // Payment Method Selector (COD vs Bangla QR Advance Payment)
+        function setPaymentType(type) {
+            orderState.paymentType = type === 'advance' ? 'advance' : 'cod';
+
+            const radioCod = document.getElementById('radioPaymentCod');
+            const radioAdv = document.getElementById('radioPaymentAdvance');
+            const labelCod = document.getElementById('labelPaymentCod');
+            const labelAdv = document.getElementById('labelPaymentAdvance');
+            const advPanel = document.getElementById('advancePaymentPanel');
+
+            if (radioCod) radioCod.checked = orderState.paymentType === 'cod';
+            if (radioAdv) radioAdv.checked = orderState.paymentType === 'advance';
+
+            if (orderState.paymentType === 'advance') {
+                labelAdv.className = 'cursor-pointer p-4 rounded-2xl border-2 border-emerald-850 bg-emerald-50/70 flex items-start gap-3 transition select-none';
+                labelCod.className = 'cursor-pointer p-4 rounded-2xl border border-stone-300 bg-white hover:border-emerald-600 flex items-start gap-3 transition select-none';
+                advPanel.classList.remove('hidden');
+            } else {
+                labelCod.className = 'cursor-pointer p-4 rounded-2xl border-2 border-emerald-850 bg-emerald-50/60 flex items-start gap-3 transition select-none';
+                labelAdv.className = 'cursor-pointer p-4 rounded-2xl border border-stone-300 bg-white hover:border-emerald-600 flex items-start gap-3 transition select-none';
+                advPanel.classList.add('hidden');
+            }
+
+            syncAllUI();
+        }
+
+        // Master UI Synchronization across Hero, Cart Drawer, Checkout Form, and Mobile Bar
+        function syncAllUI() {
+            const qty = orderState.quantity;
+            const bnQty = toBengaliNumber(qty);
+            const zoneInfo = DELIVERY_RATES[orderState.deliveryZone];
+            const subtotal = qty * BOOK_UNIT_PRICE;
+            const shippingTotal = qty * zoneInfo.feePerBook;
+            const grandTotal = subtotal + shippingTotal;
+            const totalWeight = (qty * BOOK_WEIGHT_KG).toFixed(1).replace(/\.0$/, '');
+
+            // Header & Mobile Bottom Bar
+            document.getElementById('headerCartBadge').textContent = bnQty;
+            document.getElementById('mobileBarQty').textContent = bnQty;
+            document.getElementById('mobileBarTotal').textContent = formatBdt(grandTotal);
+
+            // Hero Controls
+            document.getElementById('heroQtyDisplay').textContent = bnQty;
+            document.getElementById('heroAddBtnTotal').textContent = formatBdt(subtotal);
+            document.querySelectorAll('.preset-qty-btn').forEach(btn => {
+                const presetVal = parseInt(btn.getAttribute('data-preset'), 10);
+                if (presetVal === qty) {
+                    btn.className = 'preset-qty-btn px-4 py-2 rounded-xl text-sm font-semibold border-2 border-emerald-850 bg-emerald-850 text-white transition';
+                } else {
+                    btn.className = 'preset-qty-btn px-4 py-2 rounded-xl text-sm font-semibold border border-stone-300 bg-white text-stone-700 hover:border-emerald-700 transition';
+                }
+            });
+
+            // Slide-over Cart Drawer
+            document.getElementById('drawerQtyDisplay').textContent = bnQty;
+            document.getElementById('drawerSubtotal').textContent = formatBdt(subtotal);
+            document.getElementById('drawerFooterQty').textContent = bnQty;
+            document.getElementById('drawerFooterSubtotal').textContent = formatBdt(subtotal);
+            document.getElementById('drawerShippingFormula').textContent = `৳${toBengaliNumber(zoneInfo.feePerBook)} × ${bnQty}টি বই = ৳${toBengaliNumber(shippingTotal)}`;
+            document.getElementById('drawerFooterShipping').textContent = formatBdt(shippingTotal);
+            document.getElementById('drawerFooterTotal').textContent = formatBdt(grandTotal);
+
+            // Sync Drawer Zone Buttons
+            const zoneBtnMap = {
+                inside_sameday: 'drawerZoneSameDayBtn',
+                inside_regular: 'drawerZoneRegularBtn',
+                outside_regular: 'drawerZoneOutsideBtn'
+            };
+            Object.entries(zoneBtnMap).forEach(([zKey, btnId]) => {
+                const btn = document.getElementById(btnId);
+                if (!btn) return;
+                if (zKey === orderState.deliveryZone) {
+                    btn.className = 'py-2 px-3 rounded-xl text-xs font-bold border-2 border-emerald-850 bg-emerald-850 text-white text-left flex justify-between items-center transition';
+                } else {
+                    btn.className = 'py-2 px-3 rounded-xl text-xs font-bold border border-stone-300 bg-white text-stone-700 text-left flex justify-between items-center transition';
+                }
+            });
+
+            // Checkout Form Sync
+            document.getElementById('formQtyText').textContent = bnQty;
+            document.getElementById('formTotalWeight').textContent = toBengaliNumber(totalWeight);
+            document.getElementById('checkoutQtyDisplay').textContent = bnQty;
+
+            const radioInput = document.querySelector(`input[name="deliveryZone"][value="${orderState.deliveryZone}"]`);
+            if (radioInput) radioInput.checked = true;
+
+            const zoneLabelMap = {
+                inside_sameday: 'labelInsideSameDay',
+                inside_regular: 'labelInsideRegular',
+                outside_regular: 'labelOutsideRegular'
+            };
+            Object.entries(zoneLabelMap).forEach(([zKey, lblId]) => {
+                const lbl = document.getElementById(lblId);
+                if (!lbl) return;
+                if (zKey === orderState.deliveryZone) {
+                    lbl.className = 'cursor-pointer relative flex items-center justify-between gap-3 p-4 rounded-2xl border-2 border-emerald-850 bg-emerald-50/70 transition select-none';
+                } else {
+                    lbl.className = 'cursor-pointer relative flex items-center justify-between gap-3 p-4 rounded-2xl border border-stone-300 bg-white hover:border-emerald-600 transition select-none';
+                }
+            });
+
+            // Dynamic per-card shipping totals inside Step 2 Delivery Cards
+            const regTotalEl = document.getElementById('zoneTotalInsideRegular');
+            const sameDayTotalEl = document.getElementById('zoneTotalInsideSameDay');
+            const outTotalEl = document.getElementById('zoneTotalOutsideRegular');
+            if (regTotalEl) {
+                regTotalEl.textContent = `${bnQty}টি বই = ৳${toBengaliNumber(qty * 90)}`;
+                regTotalEl.className = `block text-xs font-bold mt-0.5 ${orderState.deliveryZone === 'inside_regular' ? 'text-emerald-800' : 'text-stone-600'}`;
+            }
+            if (sameDayTotalEl) {
+                sameDayTotalEl.textContent = `${bnQty}টি বই = ৳${toBengaliNumber(qty * 170)}`;
+                sameDayTotalEl.className = `block text-xs font-bold mt-0.5 ${orderState.deliveryZone === 'inside_sameday' ? 'text-emerald-800' : 'text-stone-600'}`;
+            }
+            if (outTotalEl) {
+                outTotalEl.textContent = `${bnQty}টি বই = ৳${toBengaliNumber(qty * 150)}`;
+                outTotalEl.className = `block text-xs font-bold mt-0.5 ${orderState.deliveryZone === 'outside_regular' ? 'text-emerald-800' : 'text-stone-600'}`;
+            }
+
+            // Order Summary Card Sync
+            document.getElementById('summaryQty').textContent = `${bnQty} কপি`;
+            document.getElementById('summarySubtotal').textContent = formatBdt(subtotal);
+            document.getElementById('summaryZoneLabel').textContent = zoneInfo.shortLabel;
+            document.getElementById('summaryShippingFormula').textContent = `৳${toBengaliNumber(zoneInfo.feePerBook)} × ${bnQty}টি বই = ৳${toBengaliNumber(shippingTotal)}`;
+            document.getElementById('summaryShipping').textContent = formatBdt(shippingTotal);
+            document.getElementById('summaryGrandTotalBn').textContent = formatBdt(grandTotal);
+            document.getElementById('summaryGrandTotalEn').textContent = `(${grandTotal} BDT)`;
+            document.getElementById('submitOrderBtnText').textContent = `অর্ডার কনফার্ম করুন (${formatBdt(grandTotal)})`;
+
+            // Advance Payment Totals & Summary Payment Box Sync
+            document.getElementById('advancePayableDisplay').textContent = formatBdt(grandTotal);
+            document.getElementById('advanceInstructionTotal').textContent = formatBdt(grandTotal);
+            const zoomPayableEl = document.getElementById('zoomModalPayable');
+            if (zoomPayableEl) zoomPayableEl.textContent = formatBdt(grandTotal);
+
+            const payTitle = document.getElementById('summaryPaymentTitle');
+            const payDesc = document.getElementById('summaryPaymentDesc');
+            if (orderState.paymentType === 'advance') {
+                payTitle.textContent = 'পেমেন্ট পদ্ধতি: অ্যাডভান্স পেমেন্ট (বাংলা QR)';
+                payDesc.textContent = `বাংলা QR কোড স্ক্যান করে ${formatBdt(grandTotal)} পরিশোধ করে অ্যাপের নাম, প্রেরকের নম্বর ও ট্রানজেকশন আইডি (TrxID) প্রদান করুন।`;
+            } else {
+                payTitle.textContent = 'পেমেন্ট পদ্ধতি: ক্যাশ অন ডেলিভারি (COD)';
+                payDesc.textContent = 'অগ্রিম কোনো টাকা দিতে হবে না। ডেলিভারিম্যানের কাছ থেকে বই বুঝে পেয়ে তারপর সম্পূর্ণ টাকা পরিশোধ করবেন।';
+            }
+        }
+
+        // Slide-over Cart Drawer Controls
+        function toggleCartDrawer(open) {
+            const drawer = document.getElementById('cartDrawer');
+            const backdrop = document.getElementById('cartBackdrop');
+            const panel = document.getElementById('cartPanel');
+
+            if (open) {
+                drawer.classList.remove('hidden');
+                document.body.style.overflow = 'hidden';
+                requestAnimationFrame(() => {
+                    backdrop.classList.remove('opacity-0');
+                    panel.classList.remove('translate-x-full');
+                });
+            } else {
+                backdrop.classList.add('opacity-0');
+                panel.classList.add('translate-x-full');
+                setTimeout(() => {
+                    drawer.classList.add('hidden');
+                    document.body.style.overflow = '';
+                }, 280);
+            }
+        }
+
+        // Bangla QR Zoom Modal Controls
+        function openQrZoomModal() {
+            const modal = document.getElementById('qrZoomModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeQrZoomModal() {
+            const modal = document.getElementById('qrZoomModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        function addToCartAndNotify() {
+            syncAllUI();
+            showToast(`কার্টে ${toBengaliNumber(orderState.quantity)} কপি "সীরাতুর রাসূল (ছাঃ)" যুক্ত করা হয়েছে!`);
+            toggleCartDrawer(true);
+        }
+
+        function proceedFromCartToCheckout() {
+            toggleCartDrawer(false);
+            scrollToCheckout();
+        }
+
+        function scrollToCheckout() {
+            const el = document.getElementById('checkout-section');
+            if (el) {
+                el.scrollIntoView({ behavior: 'smooth' });
+                setTimeout(() => {
+                    document.getElementById('customerName').focus();
+                }, 600);
+            }
+        }
+
+        // Sample Modal Controls
+        function openSampleModal() {
+            const modal = document.getElementById('sampleModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeSampleModal() {
+            const modal = document.getElementById('sampleModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        // Form Validation & Order Submission
+        function submitOrder(event) {
+            event.preventDefault();
+            const errorAlert = document.getElementById('formErrorAlert');
+            errorAlert.classList.add('hidden');
+
+            const name = document.getElementById('customerName').value.trim();
+            const rawPhone = document.getElementById('customerPhone').value.replace(/[\s\-+]/g, '');
+            const address = document.getElementById('customerAddress').value.trim();
+
+            // Validate Bangladeshi Mobile Number (01XXXXXXXXX or 8801XXXXXXXXX)
+            const bdPhoneRegex = /^(88)?01[3-9]\d{8}$/;
+            if (!bdPhoneRegex.test(rawPhone)) {
+                errorAlert.textContent = 'অনুগ্রহ করে একটি সঠিক ১১ ডিজিটের বাংলাদেশি মোবাইল নম্বর দিন (যেমন: 017XXXXXXXX)।';
+                errorAlert.classList.remove('hidden');
+                document.getElementById('customerPhone').focus();
+                return;
+            }
+
+            if (address.length < 8) {
+                errorAlert.textContent = 'অনুগ্রহ করে আপনার সম্পূর্ণ ডেলিভারি ঠিকানা (এলাকা ও জেলাসহ) লিখুন।';
+                errorAlert.classList.remove('hidden');
+                document.getElementById('customerAddress').focus();
+                return;
+            }
+
+            // Validate Advance Payment fields if Advance Payment is selected
+            let paymentApp = '';
+            let senderNumber = '';
+            let trxId = '';
+            if (orderState.paymentType === 'advance') {
+                paymentApp = document.getElementById('advancePaymentApp').value;
+                senderNumber = document.getElementById('advanceSenderNumber').value.trim();
+                trxId = document.getElementById('advanceTrxId').value.trim().toUpperCase();
+
+                if (senderNumber.length < 6) {
+                    errorAlert.textContent = 'অনুগ্রহ করে যে মোবাইল নম্বর বা অ্যাকাউন্ট থেকে বাংলা QR পেমেন্ট করেছেন তা লিখুন।';
+                    errorAlert.classList.remove('hidden');
+                    document.getElementById('advanceSenderNumber').focus();
+                    return;
+                }
+
+                if (trxId.length < 4) {
+                    errorAlert.textContent = 'অনুগ্রহ করে সঠিক ট্রানজেকশন আইডি (Transaction ID / TrxID) লিখুন।';
+                    errorAlert.classList.remove('hidden');
+                    document.getElementById('advanceTrxId').focus();
+                    return;
+                }
+            }
+
+            // Calculate Final Invoice Numbers
+            const qty = orderState.quantity;
+            const zoneInfo = DELIVERY_RATES[orderState.deliveryZone];
+            const subtotal = qty * BOOK_UNIT_PRICE;
+            const shippingTotal = qty * zoneInfo.feePerBook;
+            const grandTotal = subtotal + shippingTotal;
+            const totalWeight = (qty * BOOK_WEIGHT_KG).toFixed(1).replace(/\.0$/, '');
+            const orderNum = getNextOrderNumber();
+            const bnOrderNum = toBengaliNumber(orderNum);
+
+            const paymentSummaryText = orderState.paymentType === 'cod'
+                ? 'ক্যাশ অন ডেলিভারি (Cash on Delivery)'
+                : `অ্যাডভান্স পেমেন্ট (বাংলা QR) — মাধ্যম: ${paymentApp}, প্রেরকের নম্বর: ${senderNumber}, TrxID: ${trxId}`;
+
+            // Format Clean Comprehensive Bengali Order Message for WhatsApp
+            const whatsappLines = [
+                `আসসালামু আলাইকুম, আমি "সীরাতুর রাসূল (ছাঃ)" বইটি অর্ডার করতে চাই।`,
+                ``,
+                `📌 অর্ডার নাম্বার: ${bnOrderNum} (${orderNum})`,
+                `📚 বইয়ের নাম: সীরাতুর রাসূল (ছাঃ)`,
+                `🔢 পরিমাণ ও মূল্য: ${toBengaliNumber(qty)} কপি (৭৫০৳ × ${toBengaliNumber(qty)} = ${toBengaliNumber(subtotal)}৳)`,
+                `⚖️ মোট ওজন: ${toBengaliNumber(totalWeight)} কেজি (১.৫ কেজি × ${toBengaliNumber(qty)})`,
+                `🚚 ডেলিভারি পদ্ধতি: ${zoneInfo.label} (${toBengaliNumber(zoneInfo.feePerBook)}৳ × ${toBengaliNumber(qty)} = ${toBengaliNumber(shippingTotal)}৳)`,
+                `💰 সর্বমোট বিল: ${toBengaliNumber(grandTotal)} টাকা (${grandTotal} BDT)`,
+                `💳 পেমেন্ট পদ্ধতি: ${paymentSummaryText}`,
+                ``,
+                `👤 গ্রাহকের নাম: ${name}`,
+                `📞 মোবাইল নম্বর: ${rawPhone}`,
+                `📍 ডেলিভারি ঠিকানা: ${address}`
+            ];
+            const fullOrderMessage = whatsappLines.join('\n');
+            const whatsappOrderUrl = `${WHATSAPP_BASE_URL}?text=${encodeURIComponent(fullOrderMessage)}`;
+
+            // Populate Confirmation Modal
+            document.getElementById('invoiceOrderId').textContent = `অর্ডার নাম্বার: ${bnOrderNum}`;
+            document.getElementById('invName').textContent = name;
+            document.getElementById('invPhone').textContent = rawPhone;
+            document.getElementById('invAddress').textContent = address;
+            document.getElementById('invQty').textContent = `${toBengaliNumber(qty)} কপি (${formatBdt(subtotal)})`;
+            document.getElementById('invShipping').textContent = `${formatBdt(shippingTotal)} (${zoneInfo.shortLabel}: ৳${toBengaliNumber(zoneInfo.feePerBook)} × ${toBengaliNumber(qty)})`;
+            document.getElementById('invPayment').textContent = paymentSummaryText;
+            document.getElementById('invTotal').textContent = `${formatBdt(grandTotal)} (${grandTotal} BDT)`;
+            document.getElementById('invWhatsappBtn').href = whatsappOrderUrl;
+
+            orderState.lastInvoiceText = fullOrderMessage;
+
+            // Open WhatsApp Order Details in a New Tab
+            window.open(whatsappOrderUrl, '_blank', 'noopener,noreferrer');
+
+            const modal = document.getElementById('confirmationModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeConfirmationModal() {
+            const modal = document.getElementById('confirmationModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.style.overflow = '';
+            document.getElementById('orderCheckoutForm').reset();
+            setQuantity(1);
+            setDeliveryZone('inside_regular');
+            setPaymentType('advance');
+        }
+
+        function copyInvoiceDetails() {
+            const tempInput = document.createElement('textarea');
+            tempInput.value = orderState.lastInvoiceText;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+            showToast('অর্ডারের তথ্য কপি করা হয়েছে!');
+        }
+
+        function showToast(msg) {
+            const box = document.getElementById('toastBox');
+            box.innerHTML = `
+                <div class="bg-emerald-950 text-white px-4 py-3 rounded-2xl shadow-xl border border-gold-500/40 text-xs sm:text-sm font-semibold flex items-center gap-2.5">
+                    <i class="fa-solid fa-circle-check text-gold-400"></i>
+                    <span>${msg}</span>
+                </div>
+            `;
+            box.classList.remove('opacity-0', 'translate-y-2');
+            setTimeout(() => {
+                box.classList.add('opacity-0', 'translate-y-2');
+            }, 3000);
+        }
+
+        // Escape key support for modals
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                toggleCartDrawer(false);
+                closeSampleModal();
+                closeQrZoomModal();
+                closeConfirmationModal();
+            }
+        });
+
+        // Initial Sync on Page Load
+        window.addEventListener('DOMContentLoaded', () => {
+            setPaymentType('advance');
+            syncAllUI();
+        });
+    </script>
+</body>
+</html>
